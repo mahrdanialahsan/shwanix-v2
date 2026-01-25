@@ -508,10 +508,10 @@ const Navbar = () => {
                           +1 775 441 7755
                         </a>
                         <a 
-                          href="mailto:connect@allomate.com" 
+                          href="mailto:connect@shwanix.com" 
                           className="text-white/80 hover:text-white text-sm lg:text-base transition-colors block"
                         >
-                          connect@allomate.com
+                          connect@shwanix.com
                         </a>
                       </div>
                       <div>

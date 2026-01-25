@@ -350,7 +350,7 @@ export default function Home() {
                   <div className="min-h-[150px] md:min-h-[200px] p-[15px] md:p-[20px] glass-card-dark-transparent flex flex-col justify-between rounded-[14px] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)] border border-[#60A5FA]/20">
                     <div className="flex items-start justify-between">
                       <h3 className="font-primary text-lg md:text-xl font-bold text-white capitalize mr-3">
-                        Dedicated Teams
+                      E-Commerce Solutions
                       </h3>
                       <img
                         src="https://cms.allomate.com/uploads/e3f7b7cc6a117135c27e5ff565dc5d958ddcacb2/teamwork.svg"
@@ -449,8 +449,8 @@ export default function Home() {
               <div className="glass-card-dark rounded-[14px] p-5 md:p-6 border border-[#60A5FA]/20">
                 <div className="flex items-start justify-between mb-3">
                   <div>
-                    <div className="text-4xl md:text-5xl font-bold text-[#FACC15] font-primary mb-2">40%</div>
-                    <h3 className="text-lg md:text-xl font-bold text-[#60A5FA] font-primary uppercase">
+                    <div className="text-4xl md:text-5xl font-bold text-white font-primary mb-2">40%</div>
+                    <h3 className="text-lg md:text-xl font-bold text-white font-primary uppercase">
                       Productivity Increase
                     </h3>
                   </div>
@@ -491,9 +491,11 @@ export default function Home() {
                 </h3>
                 <p className="text-[#64748B] text-sm md:text-base mb-6 leading-relaxed">
                   Our proprietary platforms power thousands of sales professionals, connect hundreds of thousands of retailers, and consistently deliver 30%+ year-over-year growth.
+                  Our proprietary platforms power thousands of sales professionals, connect hundreds of thousands of retailers, and consistently deliver 30%+ year-over-year growth.
+                  Our proprietary platforms power thousands of sales professionals.
                 </p>
                 <div className="mb-6">
-                  <div className="text-3xl md:text-4xl font-bold text-[#FACC15] font-primary mb-1">30%+</div>
+                  <div className="text-3xl md:text-4xl font-bold text-white font-primary mb-1">30%+</div>
                   <div className="text-[#64748B] text-sm">Year-over-Year Growth</div>
                 </div>
               </div>
@@ -533,8 +535,8 @@ export default function Home() {
               <div className="glass-card-dark rounded-[14px] p-5 md:p-6 border border-[#60A5FA]/20">
                 <div className="flex items-start justify-between mb-3">
                   <div>
-                    <div className="text-4xl md:text-5xl font-bold text-[#FACC15] font-primary mb-2">75%</div>
-                    <h3 className="text-lg md:text-xl font-bold text-[#60A5FA] font-primary uppercase">
+                    <div className="text-4xl md:text-5xl font-bold text-white font-primary mb-2">75%</div>
+                    <h3 className="text-lg md:text-xl font-bold text-white font-primary uppercase">
                       Faster Operations
                     </h3>
                   </div>
@@ -631,14 +633,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="w-full md:w-8/12 relative flex justify-end items-center">
-                <figure className="w-full max-w-[500px]">
+              <div className="w-full md:w-8/12 relative flex justify-center items-stretch">
+                <figure className="w-full relative rounded-[12px] overflow-hidden">
                   <Image
-                    width={500}
-                    height={500}
+                    width={960}
+                    height={640}
                     src="/Images/future-tecknology.png"
-                    alt="Get Started"
-                    className="w-full h-[260px] sm:h-[300px] md:h-[340px] lg:h-[380px] xl:h-[420px] object-contain rounded-[12px]"
+                    alt="Embracing the Future of Technology"
+                    className="w-full h-[320px] sm:h-[400px] md:h-[460px] lg:h-[520px] xl:h-[580px] object-cover object-center rounded-[12px]"
                   />
                 </figure>
               </div>
@@ -654,13 +656,13 @@ export default function Home() {
             <div className="grid grid-cols-12 gap-2 sm:gap-5 items-center justify-items-center">
               <div className="group col-span-12 w-full max-w-4xl">
                 <div className="text-center">
-                  <div className="font-primary inline-flex items-center justify-center bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+                  <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
                     <p className="flex items-center gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="22"
                         height="22"
-                        fill="currentColor"
+                        fill="#60A5FA"
                         viewBox="0 0 16 16"
                         className="inline-flex"
                       >
@@ -720,12 +722,12 @@ export default function Home() {
                 </div>
                 {/* Content */}
                 <div className="mt-2.5">
-                  <div className="group backdrop-blur-[40px] rounded-[12px] p-4 bg-gradient-slide">
-                    <div className="relative flex items-center justify-between z-10">
-                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-[#2563EB] group-hover:text-[#2563EB] transition-colors">
+                  <div className="group portfolio-card-content">
+                    <div className="portfolio-card-inner flex items-center justify-between">
+                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
                         Khan Law
                       </h3>
-                      <p className="m-0 text-sm font-secondary text-[#64748B] group-hover:text-[#2563EB] transition-colors">
+                      <p className="m-0 text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
                         Business Development
                       </p>
                     </div>
@@ -769,12 +771,12 @@ export default function Home() {
                 </div>
                 {/* Content */}
                 <div className="mt-2.5">
-                  <div className="group backdrop-blur-[40px] rounded-[12px] p-4 bg-gradient-slide">
-                    <div className="relative flex items-center justify-between z-10">
-                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-[#2563EB] group-hover:text-primary">
+                  <div className="group portfolio-card-content">
+                    <div className="portfolio-card-inner flex items-center justify-between">
+                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
                         Source Code Academia
                       </h3>
-                      <p className="m-0 text-sm font-secondary text-[#2563EB]/70 group-hover:text-primary">
+                      <p className="m-0 text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
                         Business Development
                       </p>
                     </div>
@@ -818,12 +820,12 @@ export default function Home() {
                 </div>
                 {/* Content */}
                 <div className="mt-2.5">
-                  <div className="group backdrop-blur-[40px] rounded-[12px] p-4 bg-gradient-slide">
-                    <div className="relative flex items-center justify-between z-10">
-                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-[#2563EB] group-hover:text-primary">
+                  <div className="group portfolio-card-content">
+                    <div className="portfolio-card-inner flex items-center justify-between">
+                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
                         PSL
                       </h3>
-                      <p className="m-0 text-sm font-secondary text-[#2563EB]/70 group-hover:text-primary">
+                      <p className="m-0 text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
                         Business Development
                       </p>
                     </div>
@@ -873,8 +875,8 @@ export default function Home() {
 
           {/* Blog Cards Grid */}
           <div className="grid grid-cols-12 gap-4 md:gap-6 latest-blogs-list items-stretch">
-            {/* Large Featured Blog Card */}
-            <div className="col-span-12 lg:col-span-8 h-full min-h-0">
+            {/* Large Featured Blog Card - AI Voice Agents */}
+            <div className="col-span-12 lg:col-span-6 h-full min-h-0">
               <BlogCard
                 isLarge={true}
                 href="/blogs/blog-details/ai-voice-agents-in-government-accessibility-voices-that-bridge-gaps"
@@ -886,20 +888,36 @@ export default function Home() {
               />
             </div>
 
-            {/* Small Blog Cards Column */}
-            <div className="col-span-12 lg:col-span-4 space-y-4 md:space-y-6">
+            {/* Large Featured Blog Card - AI Chat Assistants */}
+            <div className="col-span-12 lg:col-span-6 h-full min-h-0">
+              <BlogCard
+                isLarge={true}
+                href="/blogs/blog-details/ai-chat-assistants-for-compliance-knowledge-answers-you-can-trust"
+                image="/Images/AI_chat.png"
+                video="/Images/AI_chat.mp4"
+                poster="/Images/AI_chat.png"
+                category="AI & Automation"
+                title="AI Chat Assistants for Compliance & Knowledge: Answers You Can Trust"
+              />
+            </div>
+
+            {/* Small Blog Cards - Row 2 */}
+            <div className="col-span-12 lg:col-span-6">
               <BlogCard
                 href="/blogs/blog-details/ai-voice-agents-for-smbs"
                 image="/Images/AI_Voice_Agents-thumbnail-1.png"
                 category="AI & Automation"
                 title="AI Voice Agents for SMBs: The 24/7 Virtual Receptionist"
+                description="24/7 AI voice agents that answer calls, route inquiries, and support customers without human staffing limits."
               />
-
+            </div>
+            <div className="col-span-12 lg:col-span-6">
               <BlogCard
                 href="/blogs/blog-details/ai-voice-agents-in-retail-hospitality-the-conversational-concierge"
                 image="/Images/AI_Voice_Agents-thumbnail-2.png"
                 category="AI & Automation"
-                title="AI Voice Agents in Retail & Hospitality: The Conversational Concierge"
+                title="AI Chat Agents That Understand Policy, People, and Practice"
+                description="Real-time, regulation-aware AI delivering accurate, cited answers you can trust. Context-aware AI built for policy, people, and real-world operations."
               />
             </div>
           </div>

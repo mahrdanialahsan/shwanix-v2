@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
               </ul>
 
               <p>
-                To exercise these rights, contact us at <strong>connect@allomate.com.</strong>
+                To exercise these rights, contact us at <strong>connect@shwanix.com.</strong>
               </p>
 
               <h2 className="text-[#60A5FA] font-primary font-bold text-xl sm:text-2xl mt-6 mb-3">7. International Data Transfers</h2>
@@ -165,7 +165,7 @@ export default function PrivacyPolicy() {
               <p>
                 Shwanix Technologies LLC<br />
                 Sharaja media center, Shams, Sharjah, UAE.<br />
-                Email: connect@allomate.com<br />
+                Email: connect@shwanix.com<br />
                 Phone: +97 554 168 2407
               </p>
             </div>

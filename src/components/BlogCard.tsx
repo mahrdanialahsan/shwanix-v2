@@ -8,17 +8,18 @@ interface BlogCardProps {
   image: string
   category: string
   title: string
+  description?: string
   isLarge?: boolean
   video?: string
   poster?: string
 }
 
-const BlogCard: React.FC<BlogCardProps> = ({ href, image, category, title, isLarge = false, video, poster }) => {
+const BlogCard: React.FC<BlogCardProps> = ({ href, image, category, title, description, isLarge = false, video, poster }) => {
   if (isLarge) {
     const useVideo = Boolean(video && poster)
     return (
       <Link href={href} className="group block h-full rounded-[14px] overflow-hidden border border-[#60A5FA]/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]">
-        <div className="relative w-full h-full min-h-[300px] md:min-h-[350px] lg:min-h-0">
+        <div className="relative w-full h-full min-h-[300px] md:min-h-[350px] lg:min-h-[380px]">
           {/* Video/image 100% on card */}
           {useVideo ? (
             <video
@@ -26,8 +27,8 @@ const BlogCard: React.FC<BlogCardProps> = ({ href, image, category, title, isLar
               autoPlay
               loop
               playsInline
-              preload="metadata"
               muted
+              preload="auto"
               poster={poster}
               className="absolute inset-0 w-full h-full object-cover scale-105 group-hover:scale-110 transition-transform duration-500"
             >
@@ -105,9 +106,14 @@ const BlogCard: React.FC<BlogCardProps> = ({ href, image, category, title, isLar
             <p className="font-secondary font-medium text-xs text-[#60A5FA] capitalize mb-2">
               {category}
             </p>
-            <h2 className="text-sm sm:text-base font-bold text-white font-primary line-clamp-3">
+            <h2 className="text-sm sm:text-base font-bold text-white font-primary line-clamp-2">
               {title}
             </h2>
+            {description ? (
+              <p className="text-white/70 text-xs mt-1.5 line-clamp-2 font-medium leading-relaxed">
+                {description}
+              </p>
+            ) : null}
           </div>
           <div className="mt-4 flex items-center justify-between">
             <figure className="relative">

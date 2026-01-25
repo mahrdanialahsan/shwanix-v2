@@ -126,7 +126,7 @@ export default function TermsOfUse() {
               <p>
                 Shwanix Technologies LLC<br />
                 Dubai, United Arab Emirates<br />
-                📧 connect@allomate.com<br />
+                📧 connect@shwanix.com<br />
                 📞 +971 554 168 249
               </p>
             </div>
