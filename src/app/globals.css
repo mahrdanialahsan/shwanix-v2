@@ -181,10 +181,10 @@ header.header.navbar-scrolled .navbar-link:hover {
   color: #60A5FA;
 }
 
-/* Logo styling */
+/* Logo styling - show actual image colors */
 header.header.navbar-transparent .navbar-logo img,
 header.header.navbar-scrolled .navbar-logo img {
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 header .mil-frame-top {

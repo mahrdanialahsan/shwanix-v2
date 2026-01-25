@@ -29,7 +29,7 @@ const Footer = () => {
               {/* Logo */}
               <div className="w-auto">
                 <Image
-                  src="/Images/logo.svg"
+                  src="/Images/shwanix.png"
                   alt="Shwanix Technologies Logo"
                   width={200}
                   height={60}

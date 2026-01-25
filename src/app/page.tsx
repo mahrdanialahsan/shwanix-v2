@@ -47,7 +47,7 @@ export default function Home() {
                   <Link 
                     href="/contact-us" 
                     title="Get Started" 
-                    className="group bg-[#FACC15] text-[#000000] rounded-[12px] h-[48px] w-max px-6 flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-bold hover:bg-[#2563EB] hover:text-white hover:shadow-[0_0_30px_rgba(37,99,235,0.4)]"
+                    className="group bg-[#FACC15] text-[#000000] rounded-[12px] h-[48px] w-max px-6 flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-bold hover:bg-[#EAB308] hover:shadow-[0_0_30px_rgba(250,204,21,0.5)]"
                   >
                     Get Started Today
                   </Link>
@@ -156,7 +156,7 @@ export default function Home() {
                   <Link
                     href="/services/enterprise-solutions"
                     title="Learn More"
-                    className="group bg-[#2563EB] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#1D4ED8] focus:w-[70px] transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(37,99,235,0.5)]"
+                    className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +164,7 @@ export default function Home() {
                       height="22"
                       viewBox="0 0 16 16"
                       fill="currentColor"
-                      className="bi bi-arrow-right-short text-white group-hover:text-[#2563EB] transition-colors"
+                      className="bi bi-arrow-right-short text-[#000000] group-hover:text-[#000000] transition-colors"
                     >
                       <path
                         fillRule="evenodd"
@@ -201,7 +201,7 @@ export default function Home() {
                       <Link
                         href="/services/web-and-mobile-development"
                         title="Learn More"
-                        className="group bg-[#2563EB] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#1D4ED8] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0"
+                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +209,7 @@ export default function Home() {
                           height="22"
                           viewBox="0 0 16 16"
                           fill="currentColor"
-                          className="bi bi-arrow-right-short text-white group-hover:text-[#2563EB] transition-colors"
+                          className="bi bi-arrow-right-short text-[#000000] group-hover:text-[#000000] transition-colors"
                         >
                           <path
                             fillRule="evenodd"
@@ -242,7 +242,7 @@ export default function Home() {
                       <Link
                         href="/services/mvp-design-and-development"
                         title="Learn More"
-                        className="group bg-[#2563EB] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#1D4ED8] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0"
+                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -250,7 +250,7 @@ export default function Home() {
                           height="22"
                           viewBox="0 0 16 16"
                           fill="currentColor"
-                          className="bi bi-arrow-right-short text-white group-hover:text-[#2563EB] transition-colors"
+                          className="bi bi-arrow-right-short text-[#000000] group-hover:text-[#000000] transition-colors"
                         >
                           <path
                             fillRule="evenodd"
@@ -283,7 +283,7 @@ export default function Home() {
                       <Link
                         href="/services/quality-assurance"
                         title="Learn More"
-                        className="group bg-[#2563EB] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#1D4ED8] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0"
+                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -291,7 +291,7 @@ export default function Home() {
                           height="22"
                           viewBox="0 0 16 16"
                           fill="currentColor"
-                          className="bi bi-arrow-right-short text-white group-hover:text-[#2563EB] transition-colors"
+                          className="bi bi-arrow-right-short text-[#000000] group-hover:text-[#000000] transition-colors"
                         >
                           <path
                             fillRule="evenodd"
@@ -325,7 +325,7 @@ export default function Home() {
                       <Link
                         href="/services/ai-and-automation"
                         title="Learn More"
-                        className="group bg-[#2563EB] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#1D4ED8] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0"
+                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -333,7 +333,7 @@ export default function Home() {
                           height="22"
                           viewBox="0 0 16 16"
                           fill="currentColor"
-                          className="bi bi-arrow-right-short text-white group-hover:text-[#2563EB] transition-colors"
+                          className="bi bi-arrow-right-short text-[#000000] group-hover:text-[#000000] transition-colors"
                         >
                           <path
                             fillRule="evenodd"
@@ -366,7 +366,7 @@ export default function Home() {
                       <Link
                         href="/services/dedicated-teams"
                         title="Learn More"
-                        className="group bg-[#2563EB] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#1D4ED8] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0"
+                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -374,7 +374,7 @@ export default function Home() {
                           height="22"
                           viewBox="0 0 16 16"
                           fill="currentColor"
-                          className="bi bi-arrow-right-short text-white group-hover:text-[#2563EB] transition-colors"
+                          className="bi bi-arrow-right-short text-[#000000] group-hover:text-[#000000] transition-colors"
                         >
                           <path
                             fillRule="evenodd"
@@ -499,16 +499,16 @@ export default function Home() {
               <Link
                 href="#"
                 title="Read More"
-                className="group bg-[#2563EB] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#1D4ED8] focus:w-[70px] transition-all duration-300 ease-in-out self-start"
+                className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out self-start hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  className="bi bi-arrow-right-short text-white group-hover:text-[#2563EB] transition-colors"
-                >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      className="bi bi-arrow-right-short text-[#000000] group-hover:text-[#000000] transition-colors"
+                    >
                   <path
                     fillRule="evenodd"
                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
@@ -612,7 +612,7 @@ export default function Home() {
                   <Link
                     href="/the-next-horizon"
                     title="GET STARTED"
-                    className="group bg-[#2563EB] rounded-[12px] w-[44px] h-[44px] flex items-center justify-center hover:w-[70px] hover:bg-[#1D4ED8] focus:w-[70px] transition-all duration-300 ease-in-out hover:shadow-[0_0_30px_rgba(37,99,235,0.5)]"
+                    className="group bg-[#FACC15] rounded-[12px] w-[44px] h-[44px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out hover:shadow-[0_0_30px_rgba(250,204,21,0.5)]"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -620,7 +620,7 @@ export default function Home() {
                       height="22"
                       viewBox="0 0 16 16"
                       fill="currentColor"
-                      className="bi bi-arrow-right-short text-white transition-colors"
+                      className="bi bi-arrow-right-short text-[#000000] transition-colors"
                     >
                       <path
                         fillRule="evenodd"
@@ -700,7 +700,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/khan-law_logo.png"
+                          src="https://www.allomate.com/storage/portfolios/khan-law_shwanix.png"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -749,7 +749,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/source-code-academia_logo.png"
+                          src="https://www.allomate.com/storage/portfolios/source-code-academia_shwanix.png"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -798,7 +798,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/psl_logo.png"
+                          src="https://www.allomate.com/storage/portfolios/psl_shwanix.png"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -835,7 +835,7 @@ export default function Home() {
           <Link
             href="/our-work"
             title="view All Work"
-            className="mt-5 m-auto red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[12px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-bold hover:bg-[#2563EB] hover:text-white"
+            className="mt-5 m-auto red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[12px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-bold hover:bg-[#EAB308] hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
           >
             View All Work
           </Link>
@@ -888,14 +888,14 @@ export default function Home() {
             <div className="col-span-12 lg:col-span-4 space-y-4 md:space-y-6">
               <BlogCard
                 href="/blogs/blog-details/ai-voice-agents-for-smbs"
-                image="https://www.allomate.com/storage/blogs/5_1759755273.png"
+                image="/Images/AI_Voice_Agents-thumbnail-1.png"
                 category="AI & Automation"
                 title="AI Voice Agents for SMBs: The 24/7 Virtual Receptionist"
               />
 
               <BlogCard
                 href="/blogs/blog-details/ai-voice-agents-in-retail-hospitality-the-conversational-concierge"
-                image="https://www.allomate.com/storage/blogs/Untitled_design_(6)_1759816280.png"
+                image="/Images/AI_Voice_Agents-thumbnail-2.png"
                 category="AI & Automation"
                 title="AI Voice Agents in Retail & Hospitality: The Conversational Concierge"
               />
