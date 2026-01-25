@@ -53,22 +53,16 @@ export default function Home() {
       </section>
       {/* 2nd section - About Us */}
       <section 
-        className="min-h-[600px] md:min-h-[700px] relative overflow-hidden flex items-center"
-        style={{
-          backgroundImage: 'url(/Images/about-us.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
+        className="min-h-[600px] md:min-h-[700px] relative overflow-hidden flex items-center about-us-bg-responsive"
       >
         {/* Minimal overlay for text readability */}
         <div className="absolute inset-0 bg-[#0F172A]/20 z-0"></div>
         
         <div className="relative w-full h-full z-10 min-h-[500px] sm:min-h-[600px] md:min-h-[700px]">
           <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 max-w-7xl h-full">
-            <div className="flex justify-end items-end min-h-[500px] sm:min-h-[600px] md:min-h-[700px] pb-4 sm:pb-6 md:pb-8">
-              {/* Premium Glassmorphism Panel - Right Bottom Corner */}
-              <div className="glass-card-dark-transparent rounded-[16px] p-6 sm:p-8 md:p-12 w-full md:w-[600px] lg:w-[700px] text-left border border-[#60A5FA]/20 blue-glow-soft sm:-mr-2 md:-mr-6 lg:-mr-10">
+            <div className="flex justify-center items-center min-h-[500px] sm:min-h-[600px] md:min-h-[700px] py-4 sm:py-6 md:py-8">
+              {/* Premium Glassmorphism Panel - Centered */}
+              <div className="glass-card-dark-transparent rounded-[16px] p-6 sm:p-8 md:p-12 w-full md:w-[600px] lg:w-[700px] text-left border border-[#60A5FA]/20 blue-glow-soft">
                 {/* About Us Tag */}
                 <div className="font-primary inline-flex items-center gap-2 bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[8px] px-3 py-1.5 mb-6 uppercase tracking-[2px]">
                   <svg 

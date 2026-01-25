@@ -106,6 +106,20 @@ body {
   }
 }
 
+/* Responsive About Us Background */
+.about-us-bg-responsive {
+  background-image: url(/Images/about-us-mbl.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .about-us-bg-responsive {
+    background-image: url(/Images/about-us.png);
+  }
+}
+
 .gradient-tech-light {
   background: linear-gradient(180deg, rgba(247, 249, 252, 0.3) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(241, 245, 249, 0.3) 100%);
 }

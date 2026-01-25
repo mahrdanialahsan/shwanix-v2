@@ -243,7 +243,6 @@ export default function ContactUs() {
                               x="0px"
                               y="0px"
                               viewBox="0 0 59.8 60"
-                              style={{ enableBackground: 'new 0 0 59.8 60' }}
                               xmlSpace="preserve"
                               className="w-4 h-4"
                             >

@@ -22,27 +22,27 @@ const Footer = () => {
       <div className="relative w-full h-full">
         <div className="relative z-10">
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-4 md:py-6">
-        <div className="grid grid-cols-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-6 sm:py-8 md:py-6">
+        <div className="grid grid-cols-12 gap-6 sm:gap-8">
           <div className="col-span-12 lg:col-span-9">
-            <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+            <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {/* Logo */}
-              <div className="w-auto">
+              <div className="w-auto text-center sm:text-left">
                 <Image
                   src="/Images/shwanix.png"
                   alt="Shwanix Technologies Logo"
                   width={200}
                   height={60}
-                  className="w-auto h-[34px] sm:h-[40px] mb-4"
+                  className="w-auto h-[34px] sm:h-[40px] mb-3 sm:mb-4 mx-auto sm:mx-0"
                 />
-                <h2 className="font-primary text-lg sm:text-xl md:text-2xl font-bold text-white">
+                <h2 className="font-primary text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white">
                   Think Forward. Go Digital.
                 </h2>
               </div>
 
               {/* Quick Links 1 */}
-              <div>
-                <div className="font-primary inline-block glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+              <div className="text-center sm:text-left">
+                <div className="font-primary inline-flex items-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-4 sm:mb-6 uppercase tracking-[2px]">
                   <p className="flex items-center gap-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ const Footer = () => {
                     Quick Links
                   </p>
                 </div>
-                <ul className="space-y-2 sm:space-y-3">
+                <ul className="space-y-2.5 sm:space-y-3">
                   <li>
                     <Link
                       href="/home"
@@ -98,8 +98,8 @@ const Footer = () => {
               </div>
 
               {/* Quick Links 2 */}
-              <div>
-                <div className="font-primary inline-block glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+              <div className="text-center sm:text-left">
+                <div className="font-primary inline-flex items-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-4 sm:mb-6 uppercase tracking-[2px]">
                   <p className="flex items-center gap-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ const Footer = () => {
                     Quick Links
                   </p>
                 </div>
-                <ul className="space-y-2 sm:space-y-3">
+                <ul className="space-y-2.5 sm:space-y-3">
                   <li>
                     <Link
                       href="/contact-us"
@@ -157,9 +157,9 @@ const Footer = () => {
           </div>
 
           {/* Contact Card */}
-          <div className="col-span-12 lg:col-span-3 pt-5 md:pt-0">
-            <div className="max-w-7xl mx-auto flex justify-end">
-              <div className="glass-card-dark rounded-[14px] p-8 sm:p-12 w-full md:w-96 text-center relative border border-[#60A5FA]/20">
+          <div className="col-span-12 lg:col-span-3 pt-6 sm:pt-8 lg:pt-0">
+            <div className="max-w-7xl mx-auto flex justify-center lg:justify-end">
+              <div className="glass-card-dark rounded-[14px] p-6 sm:p-8 md:p-12 w-full max-w-md md:w-96 text-center relative border border-[#60A5FA]/20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="fill-secondary absolute left-2 top-2"
@@ -180,8 +180,8 @@ const Footer = () => {
                 >
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
                 </svg>
-                <div className="mb-6">
-                  <span className="flex flex-row justify-center items-center w-[108px] mx-auto py-1 bg-bodybg/10 text-white text-[11px] rounded-[6px] pr-4 pl-2 mb-4 uppercase tracking-[2px]">
+                <div className="mb-5 sm:mb-6">
+                  <span className="flex flex-row justify-center items-center w-[108px] mx-auto py-1 bg-bodybg/10 text-white text-[11px] rounded-[6px] pr-4 pl-2 mb-3 sm:mb-4 uppercase tracking-[2px]">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -196,13 +196,13 @@ const Footer = () => {
                   </span>
                   <a
                     href="mailto:connect@shwanix.com"
-                    className="text-white/80 text-base font-medium tracking-[1px] hover:text-[#60A5FA]"
+                    className="text-white/80 text-sm sm:text-base font-medium tracking-[1px] hover:text-[#60A5FA] break-all"
                   >
                     connect@shwanix.com
                   </a>
                 </div>
                 <div>
-                  <span className="flex flex-row justify-center items-center w-[108px] mx-auto py-1 bg-[#60A5FA]/20 text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 mb-4 uppercase tracking-[2px]">
+                  <span className="flex flex-row justify-center items-center w-[108px] mx-auto py-1 bg-[#60A5FA]/20 text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 mb-3 sm:mb-4 uppercase tracking-[2px]">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -215,7 +215,7 @@ const Footer = () => {
                     </svg>
                     Call us
                   </span>
-                  <p className="text-white/80 text-base font-medium tracking-[1px] hover:text-[#60A5FA]">
+                  <p className="text-white/80 text-sm sm:text-base font-medium tracking-[1px] hover:text-[#60A5FA]">
                     <a href="tel:+17754417755">+1 775 441 7755</a>
                   </p>
                 </div>
@@ -225,10 +225,10 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-3 md:pt-4 border-t border-[#60A5FA]/20 mt-4 md:mt-6">
-          <div className="flex-row sm:flex justify-between">
-            <div className="social flex gap-2">
-              <p className="text-white/70 tracking-[1px] font-medium">Follow Us: </p>
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-4 sm:pt-5 md:pt-4 border-t border-[#60A5FA]/20 mt-6 sm:mt-8 md:mt-6">
+          <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start gap-4 sm:gap-0">
+            <div className="social flex flex-wrap items-center justify-center sm:justify-start gap-2">
+              <p className="text-white/70 tracking-[1px] font-medium text-sm sm:text-base">Follow Us: </p>
               <a
                 href="https://www.facebook.com/allomatesolutions/"
                 aria-label="Facebook"
@@ -336,7 +336,6 @@ const Footer = () => {
                   width="20"
                   height="20"
                   viewBox="0 0 59.8 60"
-                  style={{ enableBackground: 'new 0 0 59.8 60' }}
                   xmlSpace="preserve"
                 >
                   <g>
@@ -351,7 +350,7 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-            <p className="text-sm text-white/60 mt-1 sm:mt-0 font-medium">
+            <p className="text-xs sm:text-sm text-white/60 font-medium text-center sm:text-right">
               © Shwanix Technologies 2026. All rights reserved
             </p>
           </div>
