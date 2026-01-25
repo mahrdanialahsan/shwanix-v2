@@ -11,13 +11,7 @@ export default function Home() {
     <Navbar />
     {/* hero section */}
       <section 
-        className="z-1 min-h-screen flex items-center relative overflow-hidden gradient-tech-dark"
-        style={{
-          backgroundImage: 'url(/Images/hero-bg-abstract.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
+        className="z-1 min-h-[54vh] sm:min-h-screen flex items-center relative overflow-hidden hero-bg-responsive"
       >
         {/* Abstract Tech Grid Overlay */}
         <div className="absolute inset-0 tech-grid opacity-10 z-0"></div>
@@ -31,11 +25,11 @@ export default function Home() {
         {/* Flowing Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#0F172A]/40 via-[#1E293B]/30 to-[#0F172A]/40 z-0"></div>
         
-        <div className="relative w-full h-full min-h-screen">
-          <div className="w-full h-full relative z-10 min-h-screen">
-            <div className="absolute inset-0 flex items-end justify-start pb-6 md:pb-10 lg:pb-12">
+        <div className="relative w-full h-full min-h-[54vh] sm:min-h-screen">
+          <div className="w-full h-full relative z-10 min-h-[54vh] sm:min-h-screen">
+            <div className="absolute inset-0 flex items-end justify-start pb-2 sm:pb-6 md:pb-10 lg:pb-12 px-3 sm:px-4 md:px-0">
               {/* Premium Glassmorphism Panel - Left Bottom */}
-              <div className="glass-card-dark-transparent rounded-r-[16px] rounded-l-[0px] md:rounded-l-[16px] p-[30px] sm:p-12 w-full md:w-[850px] text-center border border-[#60A5FA]/20 border-l-0 md:border-l border-r blue-glow-soft ml-[50px] pl-4 md:pl-8">
+              <div className="glass-card-dark-transparent rounded-[16px] sm:rounded-r-[16px] sm:rounded-l-[0px] md:rounded-l-[16px] pt-[18px] pb-[18px] px-6 sm:p-8 md:p-12 w-full md:w-[850px] text-center border border-[#60A5FA]/20 sm:border-l-0 md:border-l border-r blue-glow-soft sm:ml-[20px] md:ml-[50px]">
                 <h1 className="leading-tight text-[28px] sm:text-[32px] md:text-[38px] lg:text-[44px] xl:text-[52px] font-primary font-bold text-white mb-4 md:mb-6 tracking-tight">
                   Transforming Ideas Into Powerful Digital Solutions
                 </h1>
@@ -70,11 +64,11 @@ export default function Home() {
         {/* Minimal overlay for text readability */}
         <div className="absolute inset-0 bg-[#0F172A]/20 z-0"></div>
         
-        <div className="relative w-full h-full z-10 min-h-[600px] md:min-h-[700px]">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl h-full">
-            <div className="flex justify-end items-end min-h-[600px] md:min-h-[700px] pb-4 md:pb-6 lg:pb-8">
+        <div className="relative w-full h-full z-10 min-h-[500px] sm:min-h-[600px] md:min-h-[700px]">
+          <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 max-w-7xl h-full">
+            <div className="flex justify-end items-end min-h-[500px] sm:min-h-[600px] md:min-h-[700px] pb-4 sm:pb-6 md:pb-8">
               {/* Premium Glassmorphism Panel - Right Bottom Corner */}
-              <div className="glass-card-dark-transparent rounded-[16px] p-8 md:p-12 w-full md:w-[600px] lg:w-[700px] text-left border border-[#60A5FA]/20 blue-glow-soft -mr-2 md:-mr-6 lg:-mr-10">
+              <div className="glass-card-dark-transparent rounded-[16px] p-6 sm:p-8 md:p-12 w-full md:w-[600px] lg:w-[700px] text-left border border-[#60A5FA]/20 blue-glow-soft sm:-mr-2 md:-mr-6 lg:-mr-10">
                 {/* About Us Tag */}
                 <div className="font-primary inline-flex items-center gap-2 bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[8px] px-3 py-1.5 mb-6 uppercase tracking-[2px]">
                   <svg 
@@ -91,12 +85,12 @@ export default function Home() {
                 </div>
                 
                 {/* Heading */}
-                <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white font-primary mb-6 tracking-tight leading-tight">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white font-primary mb-4 sm:mb-6 tracking-tight leading-tight">
                   Driven by Real Business Impact
                 </h2>
                 
                 {/* Paragraph */}
-                <p className="text-white/80 text-base md:text-lg mb-8 leading-relaxed font-medium max-w-2xl">
+                <p className="text-white/80 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 leading-relaxed font-medium max-w-2xl">
                   We deliver technology that drives real business results across industries. From startups to enterprises, we build systems that scale, perform, and deliver measurable impact.
                 </p>
                 
@@ -415,10 +409,10 @@ export default function Home() {
                 Tangible Results
               </p>
             </div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-primary mb-6 tracking-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white font-primary mb-4 sm:mb-6 tracking-tight">
               Proven Results Across Industries
             </h2>
-            <p className="text-white/80 text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed text-center">
+            <p className="text-white/80 text-base sm:text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed text-center px-2">
               Our impact is measurable across FMCG growth, SaaS adoption, and operational efficiency. Every metric represents real business outcomes, not promises.
             </p>
           </div>
@@ -436,7 +430,7 @@ export default function Home() {
                   preload="metadata"
                   muted
                   poster="/Images/saas-image-1.png"
-                  className="w-full h-[300px] md:h-[350px] object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-[250px] sm:h-[280px] md:h-[350px] object-cover group-hover:scale-105 transition-transform duration-500"
                 >
                   <source
                     src="/Images/saas-image-1.mp4"
@@ -559,22 +553,22 @@ export default function Home() {
           </div>
 
           {/* Additional Stats Row */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-            <div className="glass-card-dark rounded-[14px] p-4 md:p-6 text-center border border-[#60A5FA]/20">
-              <div className="text-2xl md:text-3xl font-bold text-white font-primary mb-2">100K+</div>
-              <div className="text-white/60 text-xs md:text-sm font-medium">Retailers Connected</div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
+            <div className="glass-card-dark rounded-[14px] p-3 sm:p-4 md:p-6 text-center border border-[#60A5FA]/20">
+              <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white font-primary mb-1 sm:mb-2">100K+</div>
+              <div className="text-white/60 text-[10px] sm:text-xs md:text-sm font-medium leading-tight">Retailers Connected</div>
             </div>
-            <div className="glass-card-dark rounded-[14px] p-4 md:p-6 text-center border border-[#60A5FA]/20">
-              <div className="text-2xl md:text-3xl font-bold text-white font-primary mb-2">50+</div>
-              <div className="text-white/60 text-xs md:text-sm font-medium">Enterprise Clients</div>
+            <div className="glass-card-dark rounded-[14px] p-3 sm:p-4 md:p-6 text-center border border-[#60A5FA]/20">
+              <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white font-primary mb-1 sm:mb-2">50+</div>
+              <div className="text-white/60 text-[10px] sm:text-xs md:text-sm font-medium leading-tight">Enterprise Clients</div>
             </div>
-            <div className="glass-card-dark rounded-[14px] p-4 md:p-6 text-center border border-[#60A5FA]/20">
-              <div className="text-2xl md:text-3xl font-bold text-white font-primary mb-2">24/7</div>
-              <div className="text-white/60 text-xs md:text-sm font-medium">Platform Uptime</div>
+            <div className="glass-card-dark rounded-[14px] p-3 sm:p-4 md:p-6 text-center border border-[#60A5FA]/20">
+              <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white font-primary mb-1 sm:mb-2">24/7</div>
+              <div className="text-white/60 text-[10px] sm:text-xs md:text-sm font-medium leading-tight">Platform Uptime</div>
             </div>
-            <div className="glass-card-dark rounded-[14px] p-4 md:p-6 text-center border border-[#60A5FA]/20">
-              <div className="text-2xl md:text-3xl font-bold text-white font-primary mb-2">99.9%</div>
-              <div className="text-white/60 text-xs md:text-sm font-medium">Client Satisfaction</div>
+            <div className="glass-card-dark rounded-[14px] p-3 sm:p-4 md:p-6 text-center border border-[#60A5FA]/20">
+              <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white font-primary mb-1 sm:mb-2">99.9%</div>
+              <div className="text-white/60 text-[10px] sm:text-xs md:text-sm font-medium leading-tight">Client Satisfaction</div>
             </div>
           </div>
         </div>
@@ -586,8 +580,8 @@ export default function Home() {
       >
         <div className="relative w-full h-full">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
-          <div className="relative flex flex-col justify-between h-full rounded-[16px] px-4 md:px-8 pt-4 md:pt-8 glass-card-dark border border-[#60A5FA]/20 blue-glow-soft transition duration-300">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+          <div className="relative flex flex-col justify-between h-full rounded-[16px] px-4 sm:px-6 md:px-8 pt-4 sm:pt-6 md:pt-8 glass-card-dark border border-[#60A5FA]/20 blue-glow-soft transition duration-300">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8">
               <div className="w-full md:w-4/12 relative">
                 <div className="inline-block">
                   <div className="font-primary inline-block glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 tracking-[2px]">
@@ -605,10 +599,10 @@ export default function Home() {
                       The Next Horizon
                     </p>
                   </div>
-                  <h2 className="leading-tight capitalize text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white font-primary mb-4 sm:mb-6 md:mb-8 tracking-tight">
+                  <h2 className="leading-tight capitalize text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white font-primary mb-3 sm:mb-4 md:mb-6 lg:mb-8 tracking-tight">
                     Embracing the Future of Technology
                   </h2>
-                  <p className="font-secondary font-medium text-lg md:text-xl text-white/80 mb-4 sm:mb-6 md:mb-8 leading-relaxed">
+                  <p className="font-secondary font-medium text-base sm:text-lg md:text-xl text-white/80 mb-4 sm:mb-6 md:mb-8 leading-relaxed">
                     Technology evolves rapidly, reshaping industries and business models. AI, quantum computing, and intelligent automation aren&apos;t just trends—they&apos;re the foundation of tomorrow&apos;s competitive advantage. At Allomate, we help you stay ahead with strategic technology adoption.
                   </p>
                   <Link
@@ -671,10 +665,10 @@ export default function Home() {
                       Latest
                     </p>
                   </div>
-                  <h2 className="leading-tight capitalize text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white font-primary mb-4 md:mb-6 tracking-tight">
+                  <h2 className="leading-tight capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white font-primary mb-3 sm:mb-4 md:mb-6 tracking-tight">
                     Featured Project
                   </h2>
-                  <p className="font-secondary font-medium text-base sm:text-lg text-white/80 max-w-3xl mx-auto leading-relaxed text-center">
+                  <p className="font-secondary font-medium text-sm sm:text-base md:text-lg text-white/80 max-w-3xl mx-auto leading-relaxed text-center px-2">
                     Explore our latest work: a cutting-edge, fully responsive application built with performance optimization, modern design, and exceptional user experience as core principles.
                   </p>
                 </div>
@@ -686,7 +680,7 @@ export default function Home() {
       {/* 9th Section */}
       <section className="py-8 md:py-12 main-portfolio-div-homepage">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 list-portfolio-append-div-homepage">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6 list-portfolio-append-div-homepage">
             {/* Khan Law Project */}
             <div>
               <Link
@@ -724,10 +718,10 @@ export default function Home() {
                 <div className="mt-2.5">
                   <div className="group portfolio-card-content">
                     <div className="portfolio-card-inner flex items-center justify-between">
-                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
+                      <h3 className="m-0 text-base sm:text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
                         Khan Law
                       </h3>
-                      <p className="m-0 text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
+                      <p className="m-0 text-xs sm:text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
                         Business Development
                       </p>
                     </div>
@@ -773,10 +767,10 @@ export default function Home() {
                 <div className="mt-2.5">
                   <div className="group portfolio-card-content">
                     <div className="portfolio-card-inner flex items-center justify-between">
-                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
+                      <h3 className="m-0 text-base sm:text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
                         Source Code Academia
                       </h3>
-                      <p className="m-0 text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
+                      <p className="m-0 text-xs sm:text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
                         Business Development
                       </p>
                     </div>
@@ -822,10 +816,10 @@ export default function Home() {
                 <div className="mt-2.5">
                   <div className="group portfolio-card-content">
                     <div className="portfolio-card-inner flex items-center justify-between">
-                      <h3 className="m-0 text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
+                      <h3 className="m-0 text-base sm:text-lg font-primary font-medium leading-none text-white group-hover:text-[#0F172A] transition-colors duration-300">
                         PSL
                       </h3>
-                      <p className="m-0 text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
+                      <p className="m-0 text-xs sm:text-sm font-secondary text-white/70 group-hover:text-[#0F172A] transition-colors duration-300">
                         Business Development
                       </p>
                     </div>
@@ -865,16 +859,16 @@ export default function Home() {
                 Blogs
               </p>
             </div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-primary mb-6 tracking-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white font-primary mb-4 sm:mb-6 tracking-tight">
               Latest Insights & Articles
             </h2>
-            <p className="text-white/80 text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed text-center">
+            <p className="text-white/80 text-base sm:text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed text-center px-2">
               Stay informed with our latest thoughts on technology, business strategy, and industry trends. Discover actionable insights to drive your digital transformation.
             </p>
           </div>
 
           {/* Blog Cards Grid */}
-          <div className="grid grid-cols-12 gap-4 md:gap-6 latest-blogs-list items-stretch">
+          <div className="grid grid-cols-12 gap-3 sm:gap-4 md:gap-6 latest-blogs-list items-stretch">
             {/* Large Featured Blog Card - AI Voice Agents */}
             <div className="col-span-12 lg:col-span-6 h-full min-h-0">
               <BlogCard

@@ -65,7 +65,6 @@ const Navbar = () => {
   const navLinks = [
     { href: '/about-us', label: 'About Us' },
     { href: '/our-team', label: 'Our Team' },
-    { href: '/sell360-sales-platform', label: 'SELL360 Sales Platform' },
     { href: '/the-next-horizon', label: 'The Next Horizon' },
     { href: '/blogs', label: 'Insights' },
     { href: '/career', label: 'Careers' },
@@ -305,15 +304,6 @@ const Navbar = () => {
                           className="text-white font-primary text-lg lg:text-xl font-medium hover:text-[#2563EB] transition-colors block"
                         >
                           Our Team
-                        </Link>
-                      </li>
-                      <li className="mil-has-children">
-                        <Link 
-                          href="/sell360-sales-platform" 
-                          onClick={closeMenu}
-                          className="text-white font-primary text-lg lg:text-xl font-medium hover:text-[#2563EB] transition-colors block"
-                        >
-                          SELL360 Sales Platform
                         </Link>
                       </li>
                       <li className="mil-has-children">
