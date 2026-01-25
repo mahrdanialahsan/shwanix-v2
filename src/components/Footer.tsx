@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <footer 
-      className="text-white pt-[0] text-sm relative z-[99] border-t border-[#60A5FA]/20 overflow-hidden gradient-tech-dark">
+      className="text-white pt-4 md:pt-6 text-sm relative z-[99] border-t border-[#60A5FA]/20 overflow-hidden gradient-tech-dark">
       {/* Abstract Tech Grid Overlay */}
       <div className="absolute inset-0 tech-grid opacity-20 z-0"></div>
       
@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="relative w-full h-full">
         <div className="relative z-10">
 
-      <div className="container mx-auto px-3 sm:px-4">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-4 md:py-6">
         <div className="grid grid-cols-12">
           <div className="col-span-12 lg:col-span-9">
             <div className="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
@@ -225,7 +225,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="container mx-auto py-4 border-t border-[#60A5FA]/20 mt-4">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-3 md:pt-4 border-t border-[#60A5FA]/20 mt-4 md:mt-6">
           <div className="flex-row sm:flex justify-between">
             <div className="social flex gap-2">
               <p className="text-white/70 tracking-[1px] font-medium">Follow Us: </p>

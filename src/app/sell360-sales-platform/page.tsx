@@ -40,7 +40,7 @@ export default function Sell360SalesPlatform() {
               title="Visit Website"
               target="_blank"
               rel="noopener noreferrer"
-              className="red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold"
+              className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
             >
               Visit Website
             </a>
@@ -605,7 +605,7 @@ export default function Sell360SalesPlatform() {
                   <Link
                     href="/contact-us"
                     title="See the Whole Picture"
-                    className="red-arrow-btn group mt-4 pr-10 bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold"
+                    className="red-arrow-btn group mt-4 pr-10 bg-white text-[#0F172A] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
                   >
                     See the Whole Picture
                   </Link>

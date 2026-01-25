@@ -117,7 +117,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
               <h1 className="text-[#2563EB] font-primary font-bold text-2xl mb-4">Project Not Found</h1>
               <Link
                 href="/our-work"
-                className="red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold"
+                className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
               >
                 Back to Our Work
               </Link>
@@ -166,7 +166,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
               title={project.websiteText}
               target="_blank"
               rel="noopener noreferrer"
-              className="red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold"
+              className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
             >
               {project.websiteText}
             </a>
@@ -473,7 +473,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
                   <Link
                     href="/contact-us"
                     title="Let's Build Yours"
-                    className="red-arrow-btn group mt-4 pr-10 bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold"
+                    className="red-arrow-btn group mt-4 pr-10 bg-white text-[#0F172A] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
                   >
                     Let&apos;s Build Yours
                   </Link>

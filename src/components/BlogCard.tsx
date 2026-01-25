@@ -66,12 +66,12 @@ const BlogCard: React.FC<BlogCardProps> = ({ href, image, category, title, isLar
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white font-primary mb-3 line-clamp-2">
               {title}
             </h2>
-            <div className="bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center group-hover:w-[70px] group-hover:bg-[#EAB308] transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]">
+            <div className="bg-white rounded-[12px] w-[40px] h-[40px] flex items-center justify-center group-hover:w-[70px] group-hover:bg-white/90 transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
                 height="22"
-                className="bi bi-arrow-right-short text-[#000000] transition-colors"
+                className="bi bi-arrow-right-short text-[#0F172A] transition-colors"
                 viewBox="0 0 16 16"
                 fill="currentColor"
               >
@@ -122,12 +122,12 @@ const BlogCard: React.FC<BlogCardProps> = ({ href, image, category, title, isLar
                 className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] rounded-[14px] object-cover border border-white/20"
               />
             </figure>
-            <div className="bg-[#FACC15] rounded-[12px] w-[35px] h-[35px] flex items-center justify-center group-hover:w-[60px] group-hover:bg-[#EAB308] transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]">
+            <div className="bg-white rounded-[12px] w-[35px] h-[35px] flex items-center justify-center group-hover:w-[60px] group-hover:bg-white/90 transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
                 height="18"
-                className="bi bi-arrow-right-short text-[#000000] transition-colors"
+                className="bi bi-arrow-right-short text-[#0F172A] transition-colors"
                 viewBox="0 0 16 16"
                 fill="currentColor"
               >

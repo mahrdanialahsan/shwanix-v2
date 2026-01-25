@@ -587,21 +587,21 @@ body.menu-open {
 }
 
 .red-arrow-btn {
-  background-color: #FACC15;
-  color: #000000;
+  background-color: #FFFFFF;
+  color: #0F172A;
   font-weight: 600;
   text-decoration: none;
-  border: 2px solid #FACC15;
+  border: 2px solid #FFFFFF;
   transition: all 0.3s ease;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(250, 204, 21, 0.2);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
 }
 
 .red-arrow-btn:hover {
-  background-color: #2563EB;
-  color: #FFFFFF;
-  border-color: #2563EB;
-  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #0F172A;
+  border-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
 }
 
 /* Replace all orange/yellow with blue - keep CTA yellow only */

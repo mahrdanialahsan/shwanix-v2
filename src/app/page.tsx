@@ -47,7 +47,7 @@ export default function Home() {
                   <Link 
                     href="/contact-us" 
                     title="Get Started" 
-                    className="group bg-[#FACC15] text-[#000000] rounded-[12px] h-[48px] w-max px-6 flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-bold hover:bg-[#EAB308] hover:shadow-[0_0_30px_rgba(250,204,21,0.5)]"
+                    className="group bg-white text-[#0F172A] rounded-[12px] h-[48px] w-max px-6 flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-bold hover:bg-white/90 hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
                   >
                     Get Started Today
                   </Link>
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[#0F172A]/20 z-0"></div>
         
         <div className="relative w-full h-full z-10 min-h-[600px] md:min-h-[700px]">
-          <div className="container mx-auto px-3 sm:px-4 h-full">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl h-full">
             <div className="flex justify-end items-end min-h-[600px] md:min-h-[700px] pb-4 md:pb-6 lg:pb-8">
               {/* Premium Glassmorphism Panel - Right Bottom Corner */}
               <div className="glass-card-dark-transparent rounded-[16px] p-8 md:p-12 w-full md:w-[600px] lg:w-[700px] text-left border border-[#60A5FA]/20 blue-glow-soft -mr-2 md:-mr-6 lg:-mr-10">
@@ -125,14 +125,15 @@ export default function Home() {
       </section>
       {/* 3rd section */}
       <section 
-        className="py-12 md:py-20 relative overflow-hidden"
+        className="py-8 md:py-12 relative overflow-hidden"
       >
         <div className="relative w-full h-full">
-          <div className="container mx-auto px-3 sm:px-4 relative z-10">
-          <h2 className="capitalize text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white font-primary mb-10 md:mb-14 text-center tracking-tight">
-            Our Services
-          </h2>
-
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+          <div className="text-center mb-10 md:mb-14">
+            <h2 className="capitalize text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white font-primary mb-6 tracking-tight">
+              Our Services
+            </h2>
+          </div>
           <div className="grid grid-cols-12 gap-4 sm:gap-6">
             {/* Enterprise Solutions - Large left card */}
             <div className="col-span-12 xl:col-span-3">
@@ -156,7 +157,7 @@ export default function Home() {
                   <Link
                     href="/services/enterprise-solutions"
                     title="Learn More"
-                    className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
+                    className="group bg-white rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-white/90 focus:w-[70px] transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +202,7 @@ export default function Home() {
                       <Link
                         href="/services/web-and-mobile-development"
                         title="Learn More"
-                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
+                        className="group bg-white rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-white/90 focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +243,7 @@ export default function Home() {
                       <Link
                         href="/services/mvp-design-and-development"
                         title="Learn More"
-                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
+                        className="group bg-white rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-white/90 focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -283,7 +284,7 @@ export default function Home() {
                       <Link
                         href="/services/quality-assurance"
                         title="Learn More"
-                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
+                        className="group bg-white rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-white/90 focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -325,7 +326,7 @@ export default function Home() {
                       <Link
                         href="/services/ai-and-automation"
                         title="Learn More"
-                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
+                        className="group bg-white rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-white/90 focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -366,7 +367,7 @@ export default function Home() {
                       <Link
                         href="/services/dedicated-teams"
                         title="Learn More"
-                        className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
+                        className="group bg-white rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-white/90 focus:w-[70px] transition-all duration-300 ease-in-out shrink-0 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -393,14 +394,14 @@ export default function Home() {
       </section>
       {/* 4th section */}
       <section 
-        className="py-16 md:py-24 home-video-3-section relative overflow-hidden"
+        className="py-10 md:py-16 home-video-3-section relative overflow-hidden"
       >
         <div className="relative w-full h-full">
-          <div className="container mx-auto px-3 sm:px-4 relative z-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
           {/* Section Header */}
           <div className="text-center mb-10 md:mb-16">
-            <div className="font-primary inline-block glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
-              <p className="flex items-center justify-center gap-2">
+            <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+              <p className="flex items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -417,7 +418,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-primary mb-6 tracking-tight">
               Proven Results Across Industries
             </h2>
-            <p className="text-white/80 text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed">
+            <p className="text-white/80 text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed text-center">
               Our impact is measurable across FMCG growth, SaaS adoption, and operational efficiency. Every metric represents real business outcomes, not promises.
             </p>
           </div>
@@ -499,7 +500,7 @@ export default function Home() {
               <Link
                 href="#"
                 title="Read More"
-                className="group bg-[#FACC15] rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out self-start hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
+                className="group bg-white rounded-[12px] w-[40px] h-[40px] flex items-center justify-center hover:w-[70px] hover:bg-white/90 focus:w-[70px] transition-all duration-300 ease-in-out self-start hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
               >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -558,19 +559,19 @@ export default function Home() {
           {/* Additional Stats Row */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             <div className="glass-card-dark rounded-[14px] p-4 md:p-6 text-center border border-[#60A5FA]/20">
-              <div className="text-2xl md:text-3xl font-bold text-[#FACC15] font-primary mb-2">100K+</div>
+              <div className="text-2xl md:text-3xl font-bold text-white font-primary mb-2">100K+</div>
               <div className="text-white/60 text-xs md:text-sm font-medium">Retailers Connected</div>
             </div>
             <div className="glass-card-dark rounded-[14px] p-4 md:p-6 text-center border border-[#60A5FA]/20">
-              <div className="text-2xl md:text-3xl font-bold text-[#FACC15] font-primary mb-2">50+</div>
+              <div className="text-2xl md:text-3xl font-bold text-white font-primary mb-2">50+</div>
               <div className="text-white/60 text-xs md:text-sm font-medium">Enterprise Clients</div>
             </div>
             <div className="glass-card-dark rounded-[14px] p-4 md:p-6 text-center border border-[#60A5FA]/20">
-              <div className="text-2xl md:text-3xl font-bold text-[#FACC15] font-primary mb-2">24/7</div>
+              <div className="text-2xl md:text-3xl font-bold text-white font-primary mb-2">24/7</div>
               <div className="text-white/60 text-xs md:text-sm font-medium">Platform Uptime</div>
             </div>
             <div className="glass-card-dark rounded-[14px] p-4 md:p-6 text-center border border-[#60A5FA]/20">
-              <div className="text-2xl md:text-3xl font-bold text-[#FACC15] font-primary mb-2">99.9%</div>
+              <div className="text-2xl md:text-3xl font-bold text-white font-primary mb-2">99.9%</div>
               <div className="text-white/60 text-xs md:text-sm font-medium">Client Satisfaction</div>
             </div>
           </div>
@@ -579,13 +580,12 @@ export default function Home() {
       </section>
       {/* 5th section */}
       <section 
-        className="py-16 md:py-24 relative overflow-hidden"
+        className="py-10 md:py-16 relative overflow-hidden"
       >
         <div className="relative w-full h-full">
-          <div className="container mx-auto px-3 sm:px-4 relative z-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
           <div className="relative flex flex-col justify-between h-full rounded-[16px] px-4 md:px-8 pt-4 md:pt-8 glass-card-dark border border-[#60A5FA]/20 blue-glow-soft transition duration-300">
-        
-            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
               <div className="w-full md:w-4/12 relative">
                 <div className="inline-block">
                   <div className="font-primary inline-block glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 tracking-[2px]">
@@ -612,7 +612,7 @@ export default function Home() {
                   <Link
                     href="/the-next-horizon"
                     title="GET STARTED"
-                    className="group bg-[#FACC15] rounded-[12px] w-[44px] h-[44px] flex items-center justify-center hover:w-[70px] hover:bg-[#EAB308] focus:w-[70px] transition-all duration-300 ease-in-out hover:shadow-[0_0_30px_rgba(250,204,21,0.5)]"
+                    className="group bg-white rounded-[12px] w-[44px] h-[44px] flex items-center justify-center hover:w-[70px] hover:bg-white/90 focus:w-[70px] transition-all duration-300 ease-in-out hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -648,14 +648,14 @@ export default function Home() {
         </div>
       </section>
       {/* 8th section */}
-      <section className="py-12 md:py-20">
-        <div className="container mx-auto px-3 sm:px-4">
-          <div>
-            <div className="grid grid-cols-12 gap-2 sm:gap-5 items-center relative">
-              <div className="group col-span-12">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="text-center">
+            <div className="grid grid-cols-12 gap-2 sm:gap-5 items-center justify-items-center">
+              <div className="group col-span-12 w-full max-w-4xl">
                 <div className="text-center">
-                  <div className="font-primary inline-block bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
-                    <p className="flex items-center justify-center gap-2">
+                  <div className="font-primary inline-flex items-center justify-center bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+                    <p className="flex items-center gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="22"
@@ -672,7 +672,7 @@ export default function Home() {
                   <h2 className="leading-tight capitalize text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white font-primary mb-4 md:mb-6 tracking-tight">
                     Featured Project
                   </h2>
-                  <p className="font-secondary font-medium text-base sm:text-lg text-white/80 max-w-3xl mx-auto leading-relaxed">
+                  <p className="font-secondary font-medium text-base sm:text-lg text-white/80 max-w-3xl mx-auto leading-relaxed text-center">
                     Explore our latest work: a cutting-edge, fully responsive application built with performance optimization, modern design, and exceptional user experience as core principles.
                   </p>
                 </div>
@@ -682,8 +682,8 @@ export default function Home() {
         </div>
       </section>
       {/* 9th Section */}
-      <section className="py-12 md:py-20 main-portfolio-div-homepage">
-        <div className="container mx-auto px-3 sm:px-4">
+      <section className="py-8 md:py-12 main-portfolio-div-homepage">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 list-portfolio-append-div-homepage">
             {/* Khan Law Project */}
             <div>
@@ -832,22 +832,24 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <Link
-            href="/our-work"
-            title="view All Work"
-            className="mt-5 m-auto red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[12px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-bold hover:bg-[#EAB308] hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
-          >
-            View All Work
-          </Link>
+          <div className="flex justify-center mt-8 md:mt-10">
+            <Link
+              href="/our-work"
+              title="view All Work"
+              className="red-arrow-btn group bg-white text-[#0F172A] rounded-[12px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-bold hover:bg-white/90 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
+            >
+              View All Work
+            </Link>
+          </div>
         </div>
       </section>
       {/* 11th & 12th section - Blogs */}
-      <section className="py-16 md:py-24 has-latest-blogs-main">
-        <div className="container mx-auto px-3 sm:px-4">
+      <section className="py-10 md:py-16 has-latest-blogs-main">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           {/* Section Header */}
           <div className="text-center mb-12 md:mb-16">
-            <div className="font-primary inline-block bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
-              <p className="flex items-center justify-center gap-2">
+            <div className="font-primary inline-flex items-center justify-center bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+              <p className="flex items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -864,7 +866,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white font-primary mb-6 tracking-tight">
               Latest Insights & Articles
             </h2>
-            <p className="text-white/80 text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed">
+            <p className="text-white/80 text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed text-center">
               Stay informed with our latest thoughts on technology, business strategy, and industry trends. Discover actionable insights to drive your digital transformation.
             </p>
           </div>

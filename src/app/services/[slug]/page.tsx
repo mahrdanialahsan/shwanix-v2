@@ -201,7 +201,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
               <h1 className="text-[#2563EB] font-primary font-bold text-2xl mb-4">Service Not Found</h1>
               <Link
                 href="/"
-                className="red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold"
+                className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
               >
                 Back to Home
               </Link>
@@ -253,7 +253,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
             <Link
               href="/contact-us"
               title="Start the Conversation"
-              className="red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold"
+              className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
             >
               Start the Conversation
             </Link>
@@ -320,7 +320,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                 <Link
                   href="/contact-us"
                   title="Fix Complexity"
-                  className="red-arrow-btn group mt-4 pr-10 bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold"
+                  className="red-arrow-btn group mt-4 pr-10 bg-white text-[#0F172A] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
                 >
                   Fix Complexity
                 </Link>
@@ -398,7 +398,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                   <Link
                     href="/contact-us"
                     title="Let's Talk"
-                    className="red-arrow-btn group mt-4 pr-10 bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold"
+                    className="red-arrow-btn group mt-4 pr-10 bg-white text-[#0F172A] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
                   >
                     Let&apos;s Talk
                   </Link>
@@ -747,7 +747,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                   <Link
                     href="/contact-us"
                     title="Get In Touch"
-                    className="red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold"
+                    className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
                   >
                     Get In Touch
                   </Link>

@@ -39,7 +39,7 @@ export default function AboutUs() {
             <Link
               href="/contact-us"
               title="Read More"
-              className="red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold"
+              className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
             >
               Start Your Transformation
             </Link>
@@ -367,7 +367,7 @@ export default function AboutUs() {
                   <Link
                     href="/contact-us"
                     title="Schedule a Consultation"
-                    className="red-arrow-btn group bg-[#FACC15] text-[#000000] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold"
+                    className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] w-max px-4 flex items-center justify-center hover:px-6 focus:px-7 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
                   >
                     Book a Strategy Call
                   </Link>
