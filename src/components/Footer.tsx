@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="relative w-full h-full">
         <div className="relative z-10">
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-6 sm:py-8 md:py-6">
+      <div className="container mx-auto max-w-full py-6 sm:py-8 md:py-6 px-[20px]">
         <div className="grid grid-cols-12 gap-6 sm:gap-8">
           <div className="col-span-12 lg:col-span-9">
             <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -158,7 +158,7 @@ const Footer = () => {
 
           {/* Contact Card */}
           <div className="col-span-12 lg:col-span-3 pt-6 sm:pt-8 lg:pt-0">
-            <div className="max-w-7xl mx-auto flex justify-center lg:justify-end">
+            <div className="w-full flex justify-center lg:justify-end">
               <div className="glass-card-dark rounded-[14px] p-6 sm:p-8 md:p-12 w-full max-w-md md:w-96 text-center relative border border-[#60A5FA]/20">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +225,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-4 sm:pt-5 md:pt-4 border-t border-[#60A5FA]/20 mt-6 sm:mt-8 md:mt-6">
+        <div className="container mx-auto max-w-full pt-4 sm:pt-5 md:pt-4 border-t border-[#60A5FA]/20 mt-6 sm:mt-8 md:mt-6 px-[20px]">
           <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start gap-4 sm:gap-0">
             <div className="social flex flex-wrap items-center justify-center sm:justify-start gap-2">
               <p className="text-white/70 tracking-[1px] font-medium text-sm sm:text-base">Follow Us: </p>

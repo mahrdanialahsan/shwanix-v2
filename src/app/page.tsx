@@ -26,9 +26,9 @@ export default function Home() {
         
         <div className="relative w-full h-full min-h-[54vh] sm:min-h-screen">
           <div className="w-full h-full relative z-10 min-h-[54vh] sm:min-h-screen">
-            <div className="absolute inset-0 flex items-end justify-start pb-2 sm:pb-6 md:pb-10 lg:pb-12 px-3 sm:px-4 md:px-0">
+            <div className="absolute inset-0 flex items-end justify-start pb-2 sm:pb-6 md:pb-10 lg:pb-12 pl-[20px]">
               {/* Premium Glassmorphism Panel - Left Bottom */}
-              <div className="glass-card-dark-transparent rounded-[16px] sm:rounded-r-[16px] sm:rounded-l-[0px] md:rounded-l-[16px] pt-[18px] pb-[18px] px-6 sm:p-8 md:p-12 w-full md:w-[850px] text-center border border-[#60A5FA]/20 sm:border-l-0 md:border-l border-r blue-glow-soft sm:ml-[20px] md:ml-[50px]">
+              <div className="glass-card-dark-transparent rounded-[16px] sm:rounded-r-[16px] sm:rounded-l-[0px] md:rounded-l-[16px] pt-[18px] pb-[18px] px-6 sm:p-8 md:p-12 w-full md:w-[850px] text-center border border-[#60A5FA]/20 sm:border-l-0 md:border-l border-r blue-glow-soft">
                 <h1 className="leading-tight text-[28px] sm:text-[32px] md:text-[38px] lg:text-[44px] xl:text-[52px] font-primary font-bold text-white mb-4 md:mb-6 tracking-tight">
                   Transforming Ideas Into Powerful Digital Solutions
                 </h1>
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[#0F172A]/20 z-0"></div>
         
         <div className="relative w-full h-full z-10 min-h-[500px] sm:min-h-[600px] md:min-h-[700px]">
-          <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 max-w-7xl h-full">
+          <div className="container mx-auto max-w-full h-full px-[20px]">
             <div className="flex justify-end items-end min-h-[500px] sm:min-h-[600px] md:min-h-[700px] py-4 sm:py-6 md:py-8 pb-6 md:pb-8 lg:pb-12">
               {/* Premium Glassmorphism Panel - Right Bottom */}
               <div className="glass-card-dark-transparent rounded-[16px] p-6 sm:p-8 md:p-12 w-full md:w-[600px] lg:w-[700px] text-left border border-[#60A5FA]/20 blue-glow-soft">
@@ -115,7 +115,7 @@ export default function Home() {
         className="py-8 md:py-12 relative overflow-hidden"
       >
         <div className="relative w-full h-full">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+          <div className="container mx-auto max-w-full relative z-10 px-[20px]">
           <div className="text-center mb-10 md:mb-14">
             <h2 className="capitalize text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white font-primary mb-6 tracking-tight">
               Our Services
@@ -384,7 +384,7 @@ export default function Home() {
         className="py-10 md:py-16 home-video-3-section relative overflow-hidden"
       >
         <div className="relative w-full h-full">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+          <div className="container mx-auto max-w-full relative z-10 px-[20px]">
           {/* Section Header */}
           <div className="text-center mb-10 md:mb-16">
             <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
@@ -572,8 +572,8 @@ export default function Home() {
         className="py-10 md:py-16 relative overflow-hidden"
       >
         <div className="relative w-full h-full">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
-          <div className="relative flex flex-col justify-between h-full rounded-[16px] px-4 sm:px-6 md:px-8 pt-4 sm:pt-6 md:pt-8 glass-card-dark border border-[#60A5FA]/20 blue-glow-soft transition duration-300">
+          <div className="container mx-auto max-w-full relative z-10 px-[20px]">
+          <div className="relative flex flex-col justify-between h-full rounded-[16px] px-3 sm:px-4 md:px-6 pt-4 sm:pt-6 md:pt-8 glass-card-dark border border-[#60A5FA]/20 blue-glow-soft transition duration-300">
             <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8">
               <div className="w-full md:w-4/12 relative">
                 <div className="inline-block">
@@ -638,7 +638,7 @@ export default function Home() {
       </section>
       {/* 8th section */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="text-center">
             <div className="grid grid-cols-12 gap-2 sm:gap-5 items-center justify-items-center">
               <div className="group col-span-12 w-full max-w-4xl">
@@ -672,7 +672,7 @@ export default function Home() {
       </section>
       {/* 9th Section */}
       <section className="py-8 md:py-12 main-portfolio-div-homepage">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6 list-portfolio-append-div-homepage">
             {/* Khan Law Project */}
             <div>
@@ -681,7 +681,7 @@ export default function Home() {
                 className="flex flex-col justify-center items-stretch mx-auto relative overflow-hidden no-underline group"
               >
                 {/* Image Container */}
-                <div className="relative flex justify-center items-center overflow-hidden rounded-[12px]">
+                <div className="relative flex justify-center items-center overflow-hidden rounded-[12px] h-[280px] sm:h-[320px] md:h-[360px]">
                   {/* Logo Overlay */}
                   <div className="absolute w-full h-full bg-[#0F172A]/50 cursor-pointer z-[1] opacity-100 hover:opacity-0 transition-opacity duration-300">
                     <div className="absolute z-[99] opacity-100 text-white text-center h-full mx-auto left-0 right-0 uppercase font-bold text-base flex justify-center items-center">
@@ -697,13 +697,13 @@ export default function Home() {
                     </div>
                   </div>
                   {/* Main Image */}
-                  <figure>
+                  <figure className="w-full h-full">
                     <img
                       width={300}
                       height={300}
                       src="https://www.allomate.com/storage/portfolios/khan-law_thumbnail.webp"
                       alt="Khan Law"
-                      className="w-full min-h-[full] object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
                     />
                   </figure>
                 </div>
@@ -730,7 +730,7 @@ export default function Home() {
                 className="flex flex-col justify-center items-stretch mx-auto relative overflow-hidden no-underline group"
               >
                 {/* Image Container */}
-                <div className="relative flex justify-center items-center overflow-hidden rounded-[12px]">
+                <div className="relative flex justify-center items-center overflow-hidden rounded-[12px] h-[280px] sm:h-[320px] md:h-[360px]">
                   {/* Logo Overlay */}
                   <div className="absolute w-full h-full bg-[#0F172A]/50 cursor-pointer z-[1] opacity-100 hover:opacity-0 transition-opacity duration-300">
                     <div className="absolute z-[99] opacity-100 text-white text-center h-full mx-auto left-0 right-0 uppercase font-bold text-base flex justify-center items-center">
@@ -746,13 +746,13 @@ export default function Home() {
                     </div>
                   </div>
                   {/* Main Image */}
-                  <figure>
+                  <figure className="w-full h-full">
                     <img
                       width={300}
                       height={300}
                       src="https://www.allomate.com/storage/portfolios/source-code-academia_thumbnail.webp"
                       alt="Source Code Academia"
-                      className="w-full min-h-[full] object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
                     />
                   </figure>
                 </div>
@@ -779,7 +779,7 @@ export default function Home() {
                 className="flex flex-col justify-center items-stretch mx-auto relative overflow-hidden no-underline group"
               >
                 {/* Image Container */}
-                <div className="relative flex justify-center items-center overflow-hidden rounded-[12px]">
+                <div className="relative flex justify-center items-center overflow-hidden rounded-[12px] h-[280px] sm:h-[320px] md:h-[360px]">
                   {/* Logo Overlay */}
                   <div className="absolute w-full h-full bg-[#0F172A]/50 cursor-pointer z-[1] opacity-100 hover:opacity-0 transition-opacity duration-300">
                     <div className="absolute z-[99] opacity-100 text-white text-center h-full mx-auto left-0 right-0 uppercase font-bold text-base flex justify-center items-center">
@@ -795,13 +795,13 @@ export default function Home() {
                     </div>
                   </div>
                   {/* Main Image */}
-                  <figure>
+                  <figure className="w-full h-full">
                     <img
                       width={300}
                       height={300}
                       src="https://www.allomate.com/storage/portfolios/psl_thumbnail.webp"
                       alt="PSL"
-                      className="w-full min-h-[full] object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
                     />
                   </figure>
                 </div>
@@ -834,7 +834,7 @@ export default function Home() {
       </section>
       {/* 11th & 12th section - Blogs */}
       <section className="py-10 md:py-16 has-latest-blogs-main">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           {/* Section Header */}
           <div className="text-center mb-12 md:mb-16">
             <div className="font-primary inline-flex items-center justify-center bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
