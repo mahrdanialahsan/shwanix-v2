@@ -689,7 +689,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/khan-law_shwanix-v6.webp"
+                          src="https://www.allomate.com/storage/portfolios/khan-law_allomate.png"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -701,7 +701,7 @@ export default function Home() {
                     <img
                       width={300}
                       height={300}
-                      src="https://www.allomate.com/storage/portfolios/khan-law_thumbnail.webp"
+                      src="https://www.allomate.com/storage/portfolios/khan-law_thumbnail.png"
                       alt="Khan Law"
                       className="w-full min-h-[full] object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
                     />
@@ -738,7 +738,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/source-code-academia_shwanix-v6.webp"
+                          src="https://www.allomate.com/storage/portfolios/source-code-academia_allomate.png"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -750,7 +750,7 @@ export default function Home() {
                     <img
                       width={300}
                       height={300}
-                      src="https://www.allomate.com/storage/portfolios/source-code-academia_thumbnail.webp"
+                      src="https://www.allomate.com/storage/portfolios/source-code-academia_thumbnail.png"
                       alt="Source Code Academia"
                       className="w-full min-h-[full] object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
                     />
@@ -787,7 +787,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/psl_shwanix-v6.webp"
+                          src="https://www.allomate.com/storage/portfolios/psl_allomate.png"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -799,7 +799,7 @@ export default function Home() {
                     <img
                       width={300}
                       height={300}
-                      src="https://www.allomate.com/storage/portfolios/psl_thumbnail.webp"
+                      src="https://www.allomate.com/storage/portfolios/psl_thumbnail.png"
                       alt="PSL"
                       className="w-full min-h-[full] object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
                     />
