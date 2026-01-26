@@ -8,7 +8,7 @@ export default function TermsOfUse() {
       
       {/* Hero Section */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-[#60A5FA] mb-2">
               Terms of Use
@@ -22,7 +22,7 @@ export default function TermsOfUse() {
 
       {/* Content Section */}
       <section className="content-area m-auto list-none [&_ul]:mt-4 [&_li]:relative [&_li]:pl-7 [&_li]:mb-1.5 [&_li::before]:content-[''] [&_li::before]:bg-[#60A5FA] [&_li::before]:w-4 [&_li::before]:h-[1px] [&_li::before]:absolute [&_li::before]:left-0 [&_li::before]:top-[10px] [&_li::before]:text-2xl pb-3 md:pb-6">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="bg-[#0F172A] border border-[#60A5FA]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] rounded-[6px] backdrop-blur-[30px] p-[20px] sm:p-[30px] w-full relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"

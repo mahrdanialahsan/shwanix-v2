@@ -10,7 +10,7 @@ export default function ContactUs() {
       
       {/* Hero Section */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
               <p className="flex items-center gap-2">
@@ -41,7 +41,7 @@ export default function ContactUs() {
 
       {/* Contact Form Section */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="relative flex flex-col justify-between h-full rounded-[14px] p-4 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]">
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -9,7 +9,7 @@ export default function AboutUs() {
       <Navbar />
       {/* Hero Section */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
               <p className="flex items-center gap-2">
@@ -48,7 +48,7 @@ export default function AboutUs() {
 
       {/* Second Section - Our Story */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[14px] p-6 md:p-10 transition-all duration-400 relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +167,7 @@ export default function AboutUs() {
 
       {/* Third Section - Core Values */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-12 gap-2 sm:gap-4 items-center mb-6 md:mb-8">
             <div className="group col-span-12 sm:col-span-6 lg:col-span-8">
               <div className="inline-block">
@@ -329,7 +329,7 @@ export default function AboutUs() {
 
       {/* Fourth Section - Our Process */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-12 gap-4 sm:gap-6 md:gap-8">
             {/* Left Column - Sticky Content */}
             <div className="group col-span-12 sm:col-span-5">
@@ -477,7 +477,7 @@ export default function AboutUs() {
 
       {/* Fifth Section - Why Businesses Stay With Us */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <h2 className="capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white font-primary mb-6 md:mb-8 lg:mb-10">
             Why Businesses Stay With Us
           </h2>

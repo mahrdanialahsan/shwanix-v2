@@ -9,7 +9,7 @@ export default function Sell360SalesPlatform() {
       <Navbar />
       {/* Hero Section */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
               <p className="flex items-center justify-center gap-2">
@@ -50,7 +50,7 @@ export default function Sell360SalesPlatform() {
 
       {/* Second Section - Growth Engine */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="bg-[#0F172A] border border-[#2563EB]/20 backdrop-blur-[40px] rounded-[6px] p-[15px] md:p-10 transition-all duration-400 relative hover:bg-[#1E293B] hover:border-[#2563EB]/40">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@ export default function Sell360SalesPlatform() {
 
       {/* Third Section - Clear Perspective */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             {/* Left Column - Content Card */}
             <div className="h-auto md:h-[670px] min-h-[450px] bg-[#0F172A] border border-[#2563EB]/20 backdrop-blur-[40px] rounded-[6px] p-5 flex flex-col justify-center hover:bg-[#1E293B] hover:border-[#2563EB]/40 transition-all duration-300">
@@ -284,7 +284,7 @@ export default function Sell360SalesPlatform() {
 
       {/* Fourth Section - Full Image */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <figure>
             <Image
               width={800}
@@ -299,7 +299,7 @@ export default function Sell360SalesPlatform() {
 
       {/* Fifth Section - Executive View */}
       <section className="py-5 md:py-10 bg-[#0F172A]">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="mb-4 md:mb-6 lg:mb-10">
             <div className="inline-block">
               <div className="font-primary inline-block bg-[#2563EB] backdrop-blur-[40px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-2 lg:mb-4 uppercase tracking-[2px]">
@@ -511,7 +511,7 @@ export default function Sell360SalesPlatform() {
 
       {/* Sixth Section - Two Images */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             <div>
               <figure>
@@ -542,7 +542,7 @@ export default function Sell360SalesPlatform() {
 
       {/* Seventh Section - Future Ready */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             {/* Left Column - Content Card */}
             <div className="h-auto md:h-[600px] min-h-[450px] bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] rounded-[6px] p-5 flex flex-col justify-center hover:bg-[#1E293B] hover:border-[#2563EB]/40 transition-all duration-300">

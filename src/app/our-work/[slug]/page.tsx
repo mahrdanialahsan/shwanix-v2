@@ -112,7 +112,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
       <div>
         <Navbar />
         <section className="py-5 md:py-10">
-          <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+          <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
             <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center">
               <h1 className="text-[#2563EB] font-primary font-bold text-2xl mb-4">Project Not Found</h1>
               <Link
@@ -135,7 +135,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
       
       {/* Hero Section */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
               <p className="flex items-center justify-center gap-2">
@@ -176,7 +176,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
 
       {/* Project Scope Section */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             {/* Left Column - Content Card */}
             <div className="h-auto md:h-[670px] min-h-[450px] bg-[#0F172A] border border-[#2563EB]/20 backdrop-blur-[40px] rounded-[6px] p-5 flex flex-col justify-center relative hover:bg-[#1E293B] hover:border-[#2563EB]/40 transition-all duration-300">
@@ -251,7 +251,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
 
       {/* Third Section - Full Width Image */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <figure>
             <Image
               width={800}
@@ -266,7 +266,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
 
       {/* Fourth Section - What We Delivered */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div>
             <div className="mb-4 md:mb-6">
               <div className="inline-block">
@@ -330,7 +330,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
 
       {/* Fifth Section - Gallery Images */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             {project.galleryImages.map((image, index) => (
               <div key={index}>
@@ -412,7 +412,7 @@ export default function WorkDetail({ params }: { params: { slug: string } }) {
 
       {/* Seventh Section - Closing */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             {/* Left Column - Image */}
             <div>

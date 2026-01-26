@@ -11,7 +11,7 @@ export default function Blogs() {
       <Navbar />
       {/* Hero Section */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
               <p className="flex items-center gap-2">
@@ -42,7 +42,7 @@ export default function Blogs() {
 
       {/* Second Section - Category Filters */}
       <section className="py-6 md:py-8">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="flex flex-col items-center pb-0 sm:pb-3">
             <div className="flex w-full b-category-list">
               <div className="mx-auto">

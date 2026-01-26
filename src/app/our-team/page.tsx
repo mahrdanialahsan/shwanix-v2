@@ -9,7 +9,7 @@ export default function OurTeam() {
       <Navbar />
       {/* Hero Section */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
               <p className="flex items-center gap-2">
@@ -48,7 +48,7 @@ export default function OurTeam() {
 
       {/* Second Section - At a Glance */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div>
             <div className="grid grid-cols-12 gap-2 sm:gap-5 items-center relative">
               <div className="group col-span-12">
@@ -83,7 +83,7 @@ export default function OurTeam() {
 
       {/* Third Section - Stats Cards */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
             {/* Years of Expertise Card */}
             <div className="glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[14px] p-4 md:p-7 transition-all duration-300 flex flex-col flex-wrap content-baseline h-full relative hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]">
@@ -174,7 +174,7 @@ export default function OurTeam() {
 
       {/* Fourth Section - Our People */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-12 gap-2 sm:gap-4 items-center mb-6 md:mb-8">
             <div className="group col-span-12 sm:col-span-6 lg:col-span-8">
               <div className="inline-block">

@@ -196,7 +196,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
       <div>
         <Navbar />
         <section className="py-5 md:py-10">
-          <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+          <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
             <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center">
               <h1 className="text-white font-primary font-bold text-2xl mb-4">Service Not Found</h1>
               <Link
@@ -219,7 +219,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
       
       {/* Hero Section */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
               <p className="flex items-center justify-center gap-2">
@@ -263,7 +263,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
 
       {/* Second Section - The Problem */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -332,7 +332,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
 
       {/* Third Section - Our Promise */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             {/* Left Column - Image */}
             <div>
@@ -411,7 +411,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
 
       {/* Fourth Section - Our Method */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-12 gap-2 sm:gap-4 items-center mb-4">
             <div className="group col-span-12 sm:col-span-6 lg:col-span-8">
               <div className="inline-block">
@@ -486,7 +486,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
 
       {/* Fifth Section - Industries Served */}
       <section className="py-5 md:py-10 flex items-center">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="flex flex-col justify-center m-auto w-full">
             <div className="flex items-center justify-center text-center w-full md:w-[70%] xl:w-[50%] m-auto mb-4 md:mb-6 lg:mb-10">
               <div className="grid grid-cols-12 gap-2 sm:gap-5 items-center relative">
@@ -572,7 +572,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
 
       {/* Sixth Section - Trust First */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             {/* Left Column - Content Card */}
             <div className="h-auto md:h-[600px] min-h-[450px] bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] rounded-[6px] p-5 flex flex-col justify-center hover:bg-[#1E293B] hover:border-[#2563EB]/40 transition-all duration-300">
@@ -663,7 +663,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
 
       {/* Seventh Section - How We Engage With You */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="mb-4 w-full sm:w-3/5 xl:w-[30%]">
             <h2 className="capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white font-primary mb-1 md:mb-2 lg:mb-3">
               How We Engage With You
@@ -714,7 +714,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
 
       {/* Eighth Section - FAQ */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-12 gap-3 sm:gap-5">
             {/* Left Column - Header */}
             <div className="group col-span-12 sm:col-span-5">

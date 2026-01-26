@@ -9,7 +9,7 @@ export default function TheNextHorizon() {
       <Navbar />
       {/* Hero Section */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
               <p className="flex items-center gap-2">
@@ -48,7 +48,7 @@ export default function TheNextHorizon() {
 
       {/* Second Section - The Story of Progress */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             {/* Left Column - Content Card */}
             <div className="h-auto md:h-[600px] min-h-[450px] glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[14px] p-5 flex flex-col justify-center transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]">
@@ -120,7 +120,7 @@ export default function TheNextHorizon() {
 
       {/* Third Section - Our Contention */}
       <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[14px] p-6 md:p-10 transition-all duration-300 relative hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]">
             <div>
               <div className="grid grid-cols-12 gap-3 sm:gap-5 justify-center">
@@ -233,7 +233,7 @@ export default function TheNextHorizon() {
 
       {/* Fourth Section - Future Technologies */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="space-y-5">
             {/* First Row */}
             <div className="flex flex-col md:flex-row gap-5">
@@ -357,7 +357,7 @@ export default function TheNextHorizon() {
 
       {/* Fifth Section - Where We Stand */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
             {/* Left Column - Image */}
             <div>

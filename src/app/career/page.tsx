@@ -9,7 +9,7 @@ export default function Career() {
       <Navbar />
       {/* Hero Section */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
               <p className="flex items-center justify-center gap-2">
@@ -40,7 +40,7 @@ export default function Career() {
 
       {/* Second Section - Life at Allomate */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ export default function Career() {
 
       {/* Third Section - The Values We Stand On */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="grid grid-cols-12 gap-2 sm:gap-4 items-center mb-4">
             <div className="group col-span-12 sm:col-span-6 lg:col-span-8">
               <div className="inline-block">
@@ -261,7 +261,7 @@ export default function Career() {
 
       {/* Fourth Section - Open Roles */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div>
             <div className="grid grid-cols-12 gap-2 sm:gap-5 items-center relative">
               <div className="group col-span-12 mb-4 sm:mb-6 lg:mb-8">

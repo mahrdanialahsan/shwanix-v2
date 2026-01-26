@@ -185,7 +185,7 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
       <Navbar />
       {/* Hero Section */}
       <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+        <div className="container mx-auto max-w-full px-[20px] mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
             <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
               <p className="flex items-center justify-center gap-2">
@@ -216,7 +216,7 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
 
       {/* Second Section - Blog Content */}
       <section className="pb-5 md:pb-10">
-        <div className="container mx-auto px-3 sm:px-4">
+        <div className="container mx-auto max-w-full px-[20px]">
           <div className="border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] rounded-[6px] backdrop-blur-[30px] p-[20px] sm:p-[30px] w-full relative bg-[#0F172A]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
