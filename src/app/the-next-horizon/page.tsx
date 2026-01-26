@@ -8,16 +8,16 @@ export default function TheNextHorizon() {
     <div>
       <Navbar />
       {/* Hero Section */}
-      <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
-            <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
-              <p className="flex items-center justify-center gap-2">
+            <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+              <p className="flex items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                   className="inline-flex"
                 >
@@ -27,11 +27,11 @@ export default function TheNextHorizon() {
               </p>
             </div>
 
-            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-[#2563EB] mb-2">
+            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-white mb-4 sm:mb-6">
               Nothing Stays the Same
             </h1>
 
-            <p className="font-secondary font-normal text-sm sm:text-base text-[#8A8A8A] mb-3 sm:mb-5 md:mb-7">
+            <p className="font-secondary font-medium text-sm sm:text-base text-white/80 mb-6 sm:mb-8 md:mb-10 leading-relaxed">
               Every age believes it will last forever. Yet history has never stood still. From the first seeds planted in the ground, to the steam that powered factories, to the code that connected billions — change has always been the only constant. The future is no different. What feels permanent today will be unrecognizable tomorrow.
             </p>
 
@@ -47,23 +47,21 @@ export default function TheNextHorizon() {
       </section>
 
       {/* Second Section - The Story of Progress */}
-      <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             {/* Left Column - Content Card */}
-            <div className="h-auto md:h-[600px] min-h-[450px] bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] rounded-[6px] p-5 flex flex-col justify-center hover:bg-[#1E293B] hover:border-[#2563EB]/40 transition-all duration-300">
+            <div className="h-auto md:h-[600px] min-h-[450px] glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[14px] p-5 flex flex-col justify-center transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]">
               <div className="flex flex-col justify-between h-full relative">
                 <div>
-                 
-
                   <div className="inline-block">
-                    <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[40px] text-white/70 text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-3 md:mb-5 uppercase tracking-[2px]">
+                    <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
                       <p className="flex items-center gap-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
                           height="22"
-                          fill="#2563EB"
+                          fill="#60A5FA"
                           viewBox="0 0 16 16"
                           className="inline-flex"
                         >
@@ -74,27 +72,27 @@ export default function TheNextHorizon() {
                     </div>
                   </div>
 
-                  <h2 className="leading-none capitalize text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white font-primary mb-3 sm:mb-5 flex">
+                  <h2 className="leading-none capitalize text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white font-primary mb-4 sm:mb-6">
                     Change never asks for permission.
                   </h2>
 
-                  <p className="font-secondary font-normal text-sm md:text-base text-[#8A8A8A] capitalize mb-3">
+                  <p className="font-secondary font-medium text-sm md:text-base text-white/80 capitalize mb-4 leading-relaxed">
                     From fields to factories, from circuits to code, every leap has redrawn the map of business and society. The winners were those who adapted. The rest were left behind. Today, a new revolution is unfolding.
                     <br />
                     <br />
                   </p>
 
-                  <ul className="list-none space-y-2 text-[#8A8A8A] mb-3 md:mb-5">
-                    <li className="relative pl-[28px] font-medium text-base before:content-[''] before:w-4 before:h-0.5 before:bg-[#2563EB] before:absolute before:left-0 before:top-2.5">
+                  <ul className="list-none space-y-2 text-white/80 mb-3 md:mb-5">
+                    <li className="relative pl-[28px] font-medium text-base leading-relaxed before:content-[''] before:w-4 before:h-0.5 before:bg-[#60A5FA] before:absolute before:left-0 before:top-2.5">
                       Farming increased food supply by more than <strong className="text-white">300%</strong>, giving rise to cities and economies
                     </li>
-                    <li className="relative pl-[28px] font-medium text-base before:content-[''] before:w-4 before:h-0.5 before:bg-[#2563EB] before:absolute before:left-0 before:top-2.5">
+                    <li className="relative pl-[28px] font-medium text-base leading-relaxed before:content-[''] before:w-4 before:h-0.5 before:bg-[#60A5FA] before:absolute before:left-0 before:top-2.5">
                       Steam and steel cut production costs by over <strong className="text-white">90%</strong>, creating mass markets and industries
                     </li>
-                    <li className="relative pl-[28px] font-medium text-base before:content-[''] before:w-4 before:h-0.5 before:bg-[#2563EB] before:absolute before:left-0 before:top-2.5">
+                    <li className="relative pl-[28px] font-medium text-base leading-relaxed before:content-[''] before:w-4 before:h-0.5 before:bg-[#60A5FA] before:absolute before:left-0 before:top-2.5">
                       The internet connected <strong className="text-white">7 billion+</strong> people in only three decades, shrinking the world overnight
                     </li>
-                    <li className="relative pl-[28px] font-medium text-base before:content-[''] before:w-4 before:h-0.5 before:bg-[#2563EB] before:absolute before:left-0 before:top-2.5">
+                    <li className="relative pl-[28px] font-medium text-base leading-relaxed before:content-[''] before:w-4 before:h-0.5 before:bg-[#60A5FA] before:absolute before:left-0 before:top-2.5">
                       AI is expected to add <strong className="text-white">$15.7 trillion to global GDP by 2030</strong>, making intelligence the new resource
                     </li>
                   </ul>
@@ -121,22 +119,20 @@ export default function TheNextHorizon() {
       </section>
 
       {/* Third Section - Our Contention */}
-      <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
-          <div className="bg-[#0F172A] border border-[#2563EB]/20 backdrop-blur-[40px] rounded-[6px] p-[15px] md:p-10 transition-all duration-400 relative hover:bg-[#1E293B] hover:border-[#2563EB]/40">
-           
-
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[14px] p-6 md:p-10 transition-all duration-300 relative hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]">
             <div>
               <div className="grid grid-cols-12 gap-3 sm:gap-5 justify-center">
                 <div className="group col-span-12">
                   <div className="mb-6 md:mb-10">
-                    <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[40px] text-white text-[10px] rounded-[6px] pr-4 pl-2 py-1 mb-3 md:mb-5 uppercase tracking-[2px]">
+                    <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
                       <p className="flex items-center gap-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
                           height="22"
-                          fill="#2563EB"
+                          fill="#60A5FA"
                           viewBox="0 0 16 16"
                           className="inline-flex"
                         >
@@ -145,18 +141,17 @@ export default function TheNextHorizon() {
                         Our Contention
                       </p>
                     </div>
-                    <br />
 
-                    <h2 className="capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#2563EB] font-primary mb-3 sm:mb-6 lg:mb-10">
+                    <h2 className="capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white font-primary mb-4 sm:mb-6 lg:mb-10">
                       The future won&apos;t be divided by tools, but by how we use them.
                     </h2>
 
                     <div className="mb-3 md:mb-8 lg:mb-16">
-                      <p className="font-secondary font-normal text-sm md:text-base text-[#8A8A8A] capitalize mb-3 md:mb-6">
+                      <p className="font-secondary font-medium text-sm md:text-base text-white/80 capitalize mb-3 md:mb-6 leading-relaxed">
                         Every revolution creates more than tools. It creates a new way of living. What we believe is simple. <strong className="text-white">AI will not just replace jobs. It will rewrite the very idea of work itself.</strong> Businesses will no longer be measured by how many people they employ. They will be measured by how intelligently they can act, how quickly they can adapt, and how responsibly they can scale. Studies suggest that <strong className="text-white">375 million workers worldwide may need to shift occupations by 2030 because of automation.</strong>
                       </p>
 
-                      <p className="font-secondary font-normal text-sm md:text-base text-[#8A8A8A] capitalize mb-3 md:mb-6">
+                      <p className="font-secondary font-medium text-sm md:text-base text-white/80 capitalize mb-3 md:mb-6 leading-relaxed">
                         In this shift, <strong className="text-white">humans will matter more, not less.</strong> Not as operators but as orchestrators. Not as doers of routine but as designers of meaning. Machines will process, but humans will interpret. Algorithms will optimize, but humans will decide what is worth optimizing. The future will belong to those who bring wisdom into intelligence, who can see connections where others see fragments, and who can give technology its soul. Already, <strong className="text-white">nine out of ten executives believe AI will create more value than the internet itself.</strong>
                       </p>
                     </div>
@@ -176,7 +171,7 @@ export default function TheNextHorizon() {
                             style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg)' }}
                           />
                         </figure>
-                        <h3 className="text-[18px] md:text-lg text-[#2563EB] font-primary font-semibold">
+                        <h3 className="text-[18px] md:text-lg text-white font-primary font-semibold">
                           Business Redefined
                         </h3>
                       </div>
@@ -198,7 +193,7 @@ export default function TheNextHorizon() {
                             style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg)' }}
                           />
                         </figure>
-                        <h3 className="text-[18px] md:text-lg text-[#2563EB] font-primary font-semibold">
+                        <h3 className="text-[18px] md:text-lg text-white font-primary font-semibold">
                           Work Transformed
                         </h3>
                       </div>
@@ -220,7 +215,7 @@ export default function TheNextHorizon() {
                             style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg)' }}
                           />
                         </figure>
-                        <h3 className="text-[18px] md:text-lg text-[#2563EB] font-primary font-semibold">
+                        <h3 className="text-[18px] md:text-lg text-white font-primary font-semibold">
                           Trust Matters
                         </h3>
                       </div>

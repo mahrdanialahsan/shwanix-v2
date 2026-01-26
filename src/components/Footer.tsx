@@ -29,7 +29,7 @@ const Footer = () => {
               {/* Logo */}
               <div className="w-auto text-center sm:text-left">
                 <Image
-                  src="/Images/shwanix.png"
+                  src="/Images/shwanix-v6.png"
                   alt="Shwanix Technologies Logo"
                   width={200}
                   height={60}

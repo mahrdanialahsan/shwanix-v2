@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
-import ReviewCard from "@/components/ReviewCard";
 import BlogCard from "@/components/BlogCard";
 import Footer from "@/components/Footer";
 
@@ -53,15 +52,15 @@ export default function Home() {
       </section>
       {/* 2nd section - About Us */}
       <section 
-        className="min-h-[600px] md:min-h-[700px] relative overflow-hidden flex items-center about-us-bg-responsive"
+        className="min-h-[600px] md:min-h-[700px] relative overflow-hidden flex items-end about-us-bg-responsive"
       >
         {/* Minimal overlay for text readability */}
         <div className="absolute inset-0 bg-[#0F172A]/20 z-0"></div>
         
         <div className="relative w-full h-full z-10 min-h-[500px] sm:min-h-[600px] md:min-h-[700px]">
           <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 max-w-7xl h-full">
-            <div className="flex justify-center items-center min-h-[500px] sm:min-h-[600px] md:min-h-[700px] py-4 sm:py-6 md:py-8">
-              {/* Premium Glassmorphism Panel - Centered */}
+            <div className="flex justify-end items-end min-h-[500px] sm:min-h-[600px] md:min-h-[700px] py-4 sm:py-6 md:py-8 pb-6 md:pb-8 lg:pb-12">
+              {/* Premium Glassmorphism Panel - Right Bottom */}
               <div className="glass-card-dark-transparent rounded-[16px] p-6 sm:p-8 md:p-12 w-full md:w-[600px] lg:w-[700px] text-left border border-[#60A5FA]/20 blue-glow-soft">
                 {/* About Us Tag */}
                 <div className="font-primary inline-flex items-center gap-2 bg-white/10 backdrop-blur-[8px] border border-white/20 text-white/90 text-[11px] rounded-[8px] px-3 py-1.5 mb-6 uppercase tracking-[2px]">
@@ -423,11 +422,11 @@ export default function Home() {
                   playsInline
                   preload="metadata"
                   muted
-                  poster="/Images/saas-image-1.png"
+                  poster="/Images/saas-image-1.webp"
                   className="w-full h-[250px] sm:h-[280px] md:h-[350px] object-cover group-hover:scale-105 transition-transform duration-500"
                 >
                   <source
-                    src="/Images/saas-image-1.mp4"
+                    src="/Images/saas-video.webm"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
@@ -514,7 +513,7 @@ export default function Home() {
                 <Image
                   width={400}
                   height={400}
-                  src="/Images/saas-image-2.png"
+                  src="/Images/saas-image-2.webp"
                   alt="Modern Operations"
                   className="w-full h-[300px] md:h-[350px] object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
@@ -626,9 +625,9 @@ export default function Home() {
                   <Image
                     width={960}
                     height={640}
-                    src="/Images/future-tecknology.png"
+                    src="/Images/future-tecknology.webp"
                     alt="Embracing the Future of Technology"
-                    className="w-full h-[320px] sm:h-[400px] md:h-[460px] lg:h-[520px] xl:h-[580px] object-cover object-center rounded-[12px]"
+                    className="w-full h-[320px] sm:h-[400px] md:h-[460px] lg:h-[520px] xl:h-[565px] object-cover object-center rounded-[12px]"
                   />
                 </figure>
               </div>
@@ -690,7 +689,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/khan-law_shwanix.png"
+                          src="https://www.allomate.com/storage/portfolios/khan-law_shwanix-v6.webp"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -739,7 +738,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/source-code-academia_shwanix.png"
+                          src="https://www.allomate.com/storage/portfolios/source-code-academia_shwanix-v6.webp"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -751,7 +750,7 @@ export default function Home() {
                     <img
                       width={300}
                       height={300}
-                      src="https://www.allomate.com/storage/portfolios/source-code-academia_thumbnail.png"
+                      src="https://www.allomate.com/storage/portfolios/source-code-academia_thumbnail.webp"
                       alt="Source Code Academia"
                       className="w-full min-h-[full] object-cover scale-105 filter blur-sm group-hover:blur-0 transition-transform duration-500 group-hover:scale-110"
                     />
@@ -788,7 +787,7 @@ export default function Home() {
                         <img
                           width={150}
                           height={150}
-                          src="https://www.allomate.com/storage/portfolios/psl_shwanix.png"
+                          src="https://www.allomate.com/storage/portfolios/psl_shwanix-v6.webp"
                           alt="Project Images"
                           className="w-full max-w-[180px] h-full scale-80 [filter:drop-shadow(2px_2px_3px_rgba(0,0,0,0.8))]"
                         />
@@ -868,9 +867,9 @@ export default function Home() {
               <BlogCard
                 isLarge={true}
                 href="/blogs/blog-details/ai-voice-agents-in-government-accessibility-voices-that-bridge-gaps"
-                image="/Images/AI_Voice_Agents.png"
-                video="/Images/AI_Voice_Agents.mp4"
-                poster="/Images/AI_Voice_Agents.png"
+                image="/Images/AI_Voice_Agents.webp"
+                video="/Images/AI_Voice_Agents.webm"
+                poster="/Images/AI_Voice_Agents.webp"
                 category="AI & Automation"
                 title="AI Voice Agents in Government & Accessibility: Voices That Bridge Gaps"
               />
@@ -881,9 +880,9 @@ export default function Home() {
               <BlogCard
                 isLarge={true}
                 href="/blogs/blog-details/ai-chat-assistants-for-compliance-knowledge-answers-you-can-trust"
-                image="/Images/AI_chat.png"
-                video="/Images/AI_chat.mp4"
-                poster="/Images/AI_chat.png"
+                image="/Images/AI_chat.webp"
+                video="/Images/AI_chat.webm"
+                poster="/Images/AI_chat.webp"
                 category="AI & Automation"
                 title="AI Chat Assistants for Compliance & Knowledge: Answers You Can Trust"
               />
@@ -893,7 +892,7 @@ export default function Home() {
             <div className="col-span-12 lg:col-span-6">
               <BlogCard
                 href="/blogs/blog-details/ai-voice-agents-for-smbs"
-                image="/Images/AI_Voice_Agents-thumbnail-1.png"
+                image="/Images/AI_Voice_Agents-thumbnail-1.webp"
                 category="AI & Automation"
                 title="AI Voice Agents for SMBs: The 24/7 Virtual Receptionist"
                 description="24/7 AI voice agents that answer calls, route inquiries, and support customers without human staffing limits."
@@ -902,7 +901,7 @@ export default function Home() {
             <div className="col-span-12 lg:col-span-6">
               <BlogCard
                 href="/blogs/blog-details/ai-voice-agents-in-retail-hospitality-the-conversational-concierge"
-                image="/Images/AI_Voice_Agents-thumbnail-2.png"
+                image="/Images/AI_Voice_Agents-thumbnail-2.webp"
                 category="AI & Automation"
                 title="AI Chat Agents That Understand Policy, People, and Practice"
                 description="Real-time, regulation-aware AI delivering accurate, cited answers you can trust. Context-aware AI built for policy, people, and real-world operations."

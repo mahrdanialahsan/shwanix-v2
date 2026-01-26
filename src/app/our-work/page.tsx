@@ -9,112 +9,112 @@ export default function OurWork() {
       slug: "khan-law",
       name: "Khan Law",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/khan-law_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/khan-law_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/khan-law_thumbnail.webp",
     },
     {
       slug: "picpax",
       name: "PicPax",
       category: "Web Development",
-      logo: "https://www.allomate.com/storage/portfolios/picpax_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/picpax_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/picpax_thumbnail.webp",
     },
     {
       slug: "source-code-academia",
       name: "Source Code Academia",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/source-code-academia_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/source-code-academia_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/source-code-academia_thumbnail.png",
     },
     {
       slug: "psl",
       name: "PSL",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/psl_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/psl_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/psl_thumbnail.webp",
     },
     {
       slug: "bni-inks",
       name: "Bni Inks",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/bni-inks_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/bni-inks_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/bni-inks_thumbnail.webp",
     },
     {
       slug: "smoknic",
       name: "Smoknic",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/smoknic_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/smoknic_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/smoknic_thumbnail.webp",
     },
     {
       slug: "danpak",
       name: "Danpak",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/danpak_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/danpak_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/danpak_thumbnail.webp",
     },
     {
       slug: "vape-suite",
       name: "Vape Suite",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/vape-suite_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/vape-suite_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/vape-suite_thumbnail.webp",
     },
     {
       slug: "disposable-vaping",
       name: "Disposable Vaping",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/disposable-vaping_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/disposable-vaping_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/disposable-vaping_thumbnail.webp",
     },
     {
       slug: "pocket-help",
       name: "Pocket Help",
       category: "Web Development",
-      logo: "https://www.allomate.com/storage/portfolios/pocket-help_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/pocket-help_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/pocket-help_thumbnail.webp",
     },
     {
       slug: "iron-horse-residential",
       name: "Iron Horse Residential",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/iron-horse-residential_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/iron-horse-residential_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/iron-horse-residential_thumbnail.webp",
     },
     {
       slug: "al-khair-distribution",
       name: "Al Khair Distribution",
       category: "Buisness Development",
-      logo: "https://www.allomate.com/storage/portfolios/al-khair-distribution_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/al-khair-distribution_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/al-khair-distribution_thumbnail.webp",
     },
     {
       slug: "green-earth-recyling",
       name: "Green Earth Recyling",
       category: "Web Development",
-      logo: "https://www.allomate.com/storage/portfolios/green-earth-recyling_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/green-earth-recyling_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/green-earth-recyling_thumbnail.webp",
     },
     {
       slug: "astorion",
       name: "Astorion",
       category: "Web Development",
-      logo: "https://www.allomate.com/storage/portfolios/astorion_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/astorion_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/astorion_thumbnail.webp",
     },
     {
       slug: "masaj",
       name: "Masaj",
       category: "Web Development",
-      logo: "https://www.allomate.com/storage/portfolios/masaj_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/masaj_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/masaj_thumbnail.webp",
     },
     {
       slug: "h-shippers",
       name: "H Shippers",
       category: "Web Development",
-      logo: "https://www.allomate.com/storage/portfolios/h-shippers_shwanix.png",
+      logo: "https://www.allomate.com/storage/portfolios/h-shippers_shwanix-v6.png",
       thumbnail: "https://www.allomate.com/storage/portfolios/h-shippers_thumbnail.webp",
     },
   ];
@@ -124,16 +124,16 @@ export default function OurWork() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
-            <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
-              <p className="flex items-center justify-center gap-2">
+            <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+              <p className="flex items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                   className="inline-flex"
                 >
@@ -143,11 +143,11 @@ export default function OurWork() {
               </p>
             </div>
 
-            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-[#2563EB] mb-2">
+            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-white mb-4 sm:mb-6">
               Transformations That Matter
             </h1>
 
-            <p className="font-secondary font-normal text-sm sm:text-base text-[#8A8A8A] mb-3 sm:mb-5 md:mb-7">
+            <p className="font-secondary font-medium text-sm sm:text-base text-white/80 mb-6 sm:mb-8 md:mb-10 leading-relaxed">
               We&apos;ve partnered with businesses across industries to build digital platforms that don&apos;t just look good but create measurable impact. From corporate websites to SaaS platforms, eCommerce stores, CRMs, and mobile apps, every project tells a story of growth, efficiency, and transformation.
             </p>
 
@@ -163,8 +163,8 @@ export default function OurWork() {
       </section>
 
       {/* Portfolio Grid Section */}
-      <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
             {projects.map((project) => (
               <div key={project.slug}>
@@ -205,10 +205,10 @@ export default function OurWork() {
                   <div className="mt-2.5">
                     <div className="group backdrop-blur-[40px] rounded-[6px] p-4 bg-gradient-slide">
                       <div className="relative flex items-center justify-between z-10">
-                        <h3 className="m-0 text-lg font-primary font-medium leading-none text-white group-hover:text-[#2563EB] transition-colors">
+                        <h3 className="m-0 text-lg font-primary font-medium leading-none text-white group-hover:text-[#60A5FA] transition-colors">
                           {project.name}
                         </h3>
-                        <p className="m-0 text-sm font-secondary text-[#8A8A8A] group-hover:text-[#2563EB] transition-colors">
+                        <p className="m-0 text-sm font-secondary text-white/80 group-hover:text-[#60A5FA] transition-colors">
                           {project.category}
                         </p>
                       </div>

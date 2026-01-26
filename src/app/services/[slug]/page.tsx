@@ -198,7 +198,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
         <section className="py-5 md:py-10">
           <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
             <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center">
-              <h1 className="text-[#2563EB] font-primary font-bold text-2xl mb-4">Service Not Found</h1>
+              <h1 className="text-white font-primary font-bold text-2xl mb-4">Service Not Found</h1>
               <Link
                 href="/"
                 className="red-arrow-btn group bg-white text-[#0F172A] rounded-[6px] h-[40px] px-6 inline-flex items-center justify-center hover:px-8 focus:px-8 transition-all duration-300 ease-in-out font-semibold hover:bg-white/90"
@@ -221,13 +221,13 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
       <section className="py-5 md:py-10">
         <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
-            <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
+            <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
               <p className="flex items-center justify-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                   className="inline-flex"
                 >
@@ -237,11 +237,11 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
               </p>
             </div>
 
-            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-[#2563EB] mb-2">
+            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-white mb-4 sm:mb-6">
               {service.title}
             </h1>
 
-            <p className="font-secondary font-normal text-sm sm:text-base text-[#8A8A8A] mb-3 sm:mb-5 md:mb-7 whitespace-pre-line">
+            <p className="font-secondary font-medium text-sm sm:text-base text-white/80 mb-6 sm:mb-8 md:mb-10 whitespace-pre-line leading-relaxed">
               <span className="text-[20px] text-white font-bold">
                 {service.description.split('\n\n')[0]}
               </span>
@@ -286,7 +286,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
               />
             </figure>
 
-            <div className="absolute bottom-[30px] left-0 sm:left-[10px] md:left-[30px] w-full sm:w-[50%] lg:w-[35%] p-3 md:p-6 bg-[#0F172A]/50 sm:bg-[#0F172A]/80 backdrop-blur-[15px] sm:backdrop-blur-[40px] rounded-[6px]">
+            <div className="absolute bottom-[30px] left-0 sm:left-[10px] md:left-[30px] w-full sm:w-[50%] lg:w-[35%] p-3 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[14px]">
               <div className="min-h-[250px] md:min-h-[300px] flex flex-col justify-between items-start">
                 <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[40px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-3 md:mb-5 uppercase tracking-[2px]">
                   <p className="flex items-center gap-2">
@@ -294,7 +294,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                       xmlns="http://www.w3.org/2000/svg"
                       width="22"
                       height="22"
-                      fill="#2563EB"
+                      fill="#60A5FA"
                       viewBox="0 0 16 16"
                       className="inline-flex"
                     >
@@ -355,7 +355,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                     xmlns="http://www.w3.org/2000/svg"
                     width="22"
                     height="22"
-                    fill="#2563EB"
+                    fill="#60A5FA"
                     viewBox="0 0 16 16"
                     className="inline-flex plus-icon2 z-[10]"
                   >
@@ -369,7 +369,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
                           height="22"
-                          fill="#2563EB"
+                          fill="#60A5FA"
                           viewBox="0 0 16 16"
                           className="inline-flex"
                         >
@@ -415,13 +415,13 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
           <div className="grid grid-cols-12 gap-2 sm:gap-4 items-center mb-4">
             <div className="group col-span-12 sm:col-span-6 lg:col-span-8">
               <div className="inline-block">
-                <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
+                <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
                   <p className="flex items-center gap-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="22"
                       height="22"
-                      fill="#2563EB"
+                      fill="#60A5FA"
                       viewBox="0 0 16 16"
                       className="inline-flex"
                     >
@@ -452,7 +452,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                   className="inline-flex plus-icon2"
                 >
@@ -492,13 +492,13 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
               <div className="grid grid-cols-12 gap-2 sm:gap-5 items-center relative">
                 <div className="group col-span-12">
                   <div className="inline-block">
-                    <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
+                    <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
                       <p className="flex items-center justify-center gap-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
                           height="22"
-                          fill="#2563EB"
+                          fill="#60A5FA"
                           viewBox="0 0 16 16"
                           className="inline-flex"
                         >
@@ -529,7 +529,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                     xmlns="http://www.w3.org/2000/svg"
                     width="22"
                     height="22"
-                    fill="#2563EB"
+                    fill="#60A5FA"
                     viewBox="0 0 16 16"
                     className="inline-flex plus-icon2"
                   >
@@ -582,7 +582,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                     xmlns="http://www.w3.org/2000/svg"
                     width="22"
                     height="22"
-                    fill="#2563EB"
+                    fill="#60A5FA"
                     viewBox="0 0 16 16"
                     className="inline-flex plus-icon2 z-[10]"
                   >
@@ -596,7 +596,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
                           height="22"
-                          fill="#2563EB"
+                          fill="#60A5FA"
                           viewBox="0 0 16 16"
                           className="inline-flex"
                         >
@@ -678,7 +678,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                     xmlns="http://www.w3.org/2000/svg"
                     width="22"
                     height="22"
-                    fill="#2563EB"
+                    fill="#60A5FA"
                     viewBox="0 0 16 16"
                     className="inline-flex plus-icon2"
                   >
@@ -726,7 +726,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                         xmlns="http://www.w3.org/2000/svg"
                         width="22"
                         height="22"
-                        fill="#2563EB"
+                        fill="#60A5FA"
                         viewBox="0 0 16 16"
                         className="inline-flex"
                       >

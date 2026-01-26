@@ -9,16 +9,16 @@ export default function ContactUs() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
-            <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
-              <p className="flex items-center justify-center gap-2">
+            <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+              <p className="flex items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                   className="inline-flex"
                 >
@@ -28,11 +28,11 @@ export default function ContactUs() {
               </p>
             </div>
 
-            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-[#2563EB] mb-2">
+            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-white mb-4 sm:mb-6">
               <b>We&apos;re ready to assist you</b>
             </h1>
 
-            <p className="font-secondary font-normal text-sm sm:text-base text-[#8A8A8A]">
+            <p className="font-secondary font-medium text-sm sm:text-base text-white/80 leading-relaxed">
               Have questions? We&apos;re ready to help!
             </p>
           </div>
@@ -40,16 +40,16 @@ export default function ContactUs() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4">
-          <div className="relative flex flex-col justify-between h-full rounded-[6px] p-3 md:p-6 bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] transition duration-300 hover:bg-[#1E293B] hover:border-[#2563EB]/40">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="relative flex flex-col justify-between h-full rounded-[14px] p-4 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
               height="22"
-              fill="#2563EB"
+              fill="#60A5FA"
               viewBox="0 0 16 16"
-              className="inline-flex plus-icon2"
+              className="inline-flex mb-3"
             >
               <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
             </svg>
@@ -59,13 +59,13 @@ export default function ContactUs() {
               <div className="w-full lg:w-6/12 relative flex flex-col justify-between">
                 <div className="w-full md:w-9/12">
                   <div className="inline-block">
-                    <div className="font-primary inline-block bg-[#2563EB]/20 border border-[#2563EB]/30 shadow-[inset_0_0_50px_rgba(37,99,235,0.1)] backdrop-blur-[30px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-5 md:mb-7 uppercase tracking-[2px]">
+                    <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
                       <p className="flex items-center gap-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
                           height="22"
-                          fill="#2563EB"
+                          fill="#60A5FA"
                           viewBox="0 0 16 16"
                           className="inline-flex"
                         >
@@ -75,11 +75,11 @@ export default function ContactUs() {
                       </p>
                     </div>
 
-                    <h2 className="capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#2563EB] font-primary flex mb-3">
+                    <h2 className="capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white font-primary mb-4">
                       Share the details of your project with us
                     </h2>
 
-                    <p className="font-secondary font-normal text-sm text-[#8A8A8A] mb-3">
+                    <p className="font-secondary font-medium text-sm text-white/80 mb-6 leading-relaxed">
                       Planning a digital project? We&apos;d love to hear what you&apos;ve got in mind.
                     </p>
                   </div>
@@ -90,19 +90,19 @@ export default function ContactUs() {
                     {/* Locations */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-6 text-white all-locations-company mb-6">
                       <div>
-                        <div className="title-menu text-[#2563EB] font-primary text-sm font-semibold uppercase tracking-wider mb-2">
+                        <div className="title-menu text-[#60A5FA] font-primary text-sm font-semibold uppercase tracking-wider mb-2">
                           Pakistan
                         </div>
-                        <p className="font-secondary font-normal text-sm text-[#8A8A8A] mb-3">
+                        <p className="font-secondary font-medium text-sm text-white/80 mb-3 leading-relaxed">
                           1st Floor, Daftarkhwan | Downtown, Gulberg Lahore Pakistan.
                         </p>
                       </div>
 
                       <div>
-                        <div className="title-menu text-[#2563EB] font-primary text-sm font-semibold uppercase tracking-wider mb-2">
+                        <div className="title-menu text-[#60A5FA] font-primary text-sm font-semibold uppercase tracking-wider mb-2">
                           Dubai
                         </div>
-                        <p className="font-secondary font-normal text-sm text-[#8A8A8A] mb-3">
+                        <p className="font-secondary font-medium text-sm text-white/80 mb-3 leading-relaxed">
                           Sharjah Media City (Shams), Al Messaned, Al Bataeh, Sharjah, United Arab Emirates.
                         </p>
                       </div>
@@ -111,25 +111,25 @@ export default function ContactUs() {
                     {/* Contact Details */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-6">
                       <div>
-                        <div className="title-menu text-[#2563EB] font-primary text-sm font-semibold uppercase tracking-wider mb-2">
+                        <div className="title-menu text-[#60A5FA] font-primary text-sm font-semibold uppercase tracking-wider mb-2">
                           Say Hello
                         </div>
                         <a
                           href="tel:+17754417755"
-                          className="mb-0 text-base font-medium tracking-[1px] text-white hover:text-[#2563EB] transition-colors block mb-2"
+                          className="mb-0 text-base font-medium tracking-[1px] text-white hover:text-[#60A5FA] transition-colors block mb-2"
                         >
                           +1 775 441 7755
                         </a>
                         <a
                           href="mailto:connect@shwanix.com"
-                          className="text-white hover:text-[#2563EB] transition-colors block"
+                          className="text-white hover:text-[#60A5FA] transition-colors block"
                         >
                           connect@shwanix.com
                         </a>
                       </div>
 
                       <div>
-                        <div className="title-menu text-[#2563EB] font-primary text-sm font-semibold uppercase tracking-wider mb-2">
+                        <div className="title-menu text-[#60A5FA] font-primary text-sm font-semibold uppercase tracking-wider mb-2">
                           Our Messengers:
                         </div>
                         <div className="social organization-social flex gap-4 mt-4">

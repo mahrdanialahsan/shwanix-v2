@@ -10,16 +10,16 @@ export default function Blogs() {
     <div>
       <Navbar />
       {/* Hero Section */}
-      <section className="py-5 md:py-10">
-        <div className="container mx-auto px-3 sm:px-4 mt-20 sm:mt-24">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl mt-20 sm:mt-24">
           <div className="w-full md:w-[80%] lg:w-[60%] m-auto text-center flex items-center justify-center flex-col">
-            <div className="font-primary inline-block bg-[#0F172A] border border-[#2563EB]/30 backdrop-blur-[20px] text-white text-[11px] rounded-[6px] pr-4 pl-2 py-1 mb-4 lg:mb-5 uppercase tracking-[2px]">
-              <p className="flex items-center justify-center gap-2">
+            <div className="font-primary inline-flex items-center justify-center glass-card-dark text-[#60A5FA] text-[11px] rounded-[12px] pr-4 pl-2 py-1.5 mb-6 uppercase tracking-[2px]">
+              <p className="flex items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                   className="inline-flex"
                 >
@@ -29,11 +29,11 @@ export default function Blogs() {
               </p>
             </div>
 
-            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-[#2563EB] mb-2">
+            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-white mb-4 sm:mb-6">
               AI Case Studies &amp; Insights
             </h1>
 
-            <p className="font-secondary font-normal text-sm sm:text-base text-[#8A8A8A]">
+            <p className="font-secondary font-medium text-sm sm:text-base text-white/80 leading-relaxed">
               Explore real-world applications of artificial intelligence, from business automation to creative innovations, shaping the future across industries.
             </p>
           </div>
@@ -41,8 +41,8 @@ export default function Blogs() {
       </section>
 
       {/* Second Section - Category Filters */}
-      <section className="py-3 md:py-6 !pb-3">
-        <div className="container mx-auto px-3 sm:px-4">
+      <section className="py-6 md:py-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-col items-center pb-0 sm:pb-3">
             <div className="flex w-full b-category-list">
               <div className="mx-auto">
@@ -52,7 +52,7 @@ export default function Blogs() {
                     <button
                       title="All Categories"
                       data-id="0"
-                      className="category-blog shadow-[inset_0_0_50px_rgba(37,99,235,0.1)] rounded-[6px] backdrop-blur-[30px] px-3 py-1.5 sm:px-4 sm:py-2 text-white bg-[#2563EB] border border-[#2563EB] text-[13px] sm:text-sm hover:text-white hover:border-[#2563EB] hover:bg-[#1D4ED8] transition font-primary font-semibold"
+                      className="category-blog glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[12px] px-3 py-1.5 sm:px-4 sm:py-2 text-white text-[13px] sm:text-sm hover:bg-[#60A5FA]/20 transition font-primary font-semibold"
                     >
                       All Categories
                     </button>
@@ -63,7 +63,7 @@ export default function Blogs() {
                     <button
                       title="AI & Automation"
                       data-id="1"
-                      className="category-blog bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] rounded-[6px] px-3 py-1.5 sm:px-4 sm:py-2 text-[13px] sm:text-sm text-white hover:text-[#000000] hover:border-[#2563EB] hover:bg-[#2563EB] transition font-primary"
+                      className="category-blog glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[12px] px-3 py-1.5 sm:px-4 sm:py-2 text-[13px] sm:text-sm text-white hover:bg-[#60A5FA]/20 transition font-primary"
                     >
                       AI &amp; Automation
                     </button>
@@ -74,7 +74,7 @@ export default function Blogs() {
                     <button
                       title="Digital Transformation & Strategy"
                       data-id="5"
-                      className="category-blog bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] rounded-[6px] px-3 py-1.5 sm:px-4 sm:py-2 text-[13px] sm:text-sm text-white hover:text-[#000000] hover:border-[#2563EB] hover:bg-[#2563EB] transition font-primary"
+                      className="category-blog glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[12px] px-3 py-1.5 sm:px-4 sm:py-2 text-[13px] sm:text-sm text-white hover:bg-[#60A5FA]/20 transition font-primary"
                     >
                       Digital Transformation &amp; Strategy
                     </button>
@@ -85,7 +85,7 @@ export default function Blogs() {
                     <button
                       title="Cloud & Scalability"
                       data-id="6"
-                      className="category-blog bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] rounded-[6px] px-3 py-1.5 sm:px-4 sm:py-2 text-[13px] sm:text-sm text-white hover:text-[#000000] hover:border-[#2563EB] hover:bg-[#2563EB] transition font-primary"
+                      className="category-blog glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[12px] px-3 py-1.5 sm:px-4 sm:py-2 text-[13px] sm:text-sm text-white hover:bg-[#60A5FA]/20 transition font-primary"
                     >
                       Cloud &amp; Scalability
                     </button>
@@ -96,7 +96,7 @@ export default function Blogs() {
                     <button
                       title="Quality Assurance & Reliability"
                       data-id="7"
-                      className="category-blog bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] rounded-[6px] px-3 py-1.5 sm:px-4 sm:py-2 text-[13px] sm:text-sm text-white hover:text-[#000000] hover:border-[#2563EB] hover:bg-[#2563EB] transition font-primary"
+                      className="category-blog glass-card-dark-transparent border border-[#60A5FA]/20 rounded-[12px] px-3 py-1.5 sm:px-4 sm:py-2 text-[13px] sm:text-sm text-white hover:bg-[#60A5FA]/20 transition font-primary"
                     >
                       Quality Assurance &amp; Reliability
                     </button>
@@ -109,21 +109,21 @@ export default function Blogs() {
       </section>
 
       {/* Third Section - Blog Cards Grid */}
-      <section className="pb-6 blog-section">
-        <div className="container mx-auto px-3 sm:px-4 has-blogs top-blog-list">
+      <section className="py-8 md:py-12 blog-section">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl has-blogs top-blog-list">
           <div className="grid grid-cols-12 gap-3 sm:gap-4 top-blog-lists">
             {/* Blog Card 1 */}
             <div className="group col-span-12 sm:col-span-6 lg:col-span-4">
               <Link
                 href="/blogs/blog-details/beyond-the-bots-why-manual-testing-still-matters-in-an-ai-driven-world"
-                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[6px] hover:bg-[#1E293B] hover:border-[#2563EB]/40"
+                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[14px] hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="inline-flex plus-icon1 z-10"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
@@ -142,10 +142,10 @@ export default function Blogs() {
                     </figure>
                   </div>
                   <div>
-                    <p className="font-secondary font-normal text-sm sm:text-base text-[#2563EB] capitalize mb-1">
-                      <span className="text-[#2563EB]/80">Category:</span> Quality Assurance &amp; Reliability
+                    <p className="font-secondary font-medium text-sm sm:text-base text-[#60A5FA] capitalize mb-1">
+                      <span className="text-[#60A5FA]/80">Category:</span> Quality Assurance &amp; Reliability
                     </p>
-                    <h2 className="text-base sm:text-xl font-bold text-[#2563EB] font-primary mb-3">
+                    <h2 className="text-base sm:text-xl font-bold text-white font-primary mb-3">
                       Beyond the Bots: Why Manual Testing Still Matters in an AI-Driven World
                     </h2>
                     <div
@@ -175,14 +175,14 @@ export default function Blogs() {
             <div className="group col-span-12 sm:col-span-6 lg:col-span-4">
               <Link
                 href="/blogs/blog-details/microservices-in-2025-redefining-how-modern-software-is-built"
-                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[6px] hover:bg-[#1E293B] hover:border-[#2563EB]/40"
+                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[14px] hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="inline-flex plus-icon1 z-10"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
@@ -201,10 +201,10 @@ export default function Blogs() {
                     </figure>
                   </div>
                   <div>
-                    <p className="font-secondary font-normal text-sm sm:text-base text-[#2563EB] capitalize mb-1">
-                      <span className="text-[#2563EB]/80">Category:</span> Cloud &amp; Scalability
+                    <p className="font-secondary font-medium text-sm sm:text-base text-[#60A5FA] capitalize mb-1">
+                      <span className="text-[#60A5FA]/80">Category:</span> Cloud &amp; Scalability
                     </p>
-                    <h2 className="text-base sm:text-xl font-bold text-[#2563EB] font-primary mb-3">
+                    <h2 className="text-base sm:text-xl font-bold text-white font-primary mb-3">
                       Microservices in 2025: Redefining How Modern Software Is Built
                     </h2>
                     <div
@@ -234,14 +234,14 @@ export default function Blogs() {
             <div className="group col-span-12 sm:col-span-6 lg:col-span-4">
               <Link
                 href="/blogs/blog-details/ai-vs-industry-giants-how-startups-are-flipping-the-script"
-                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[6px] hover:bg-[#1E293B] hover:border-[#2563EB]/40"
+                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[14px] hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="inline-flex plus-icon1 z-10"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
@@ -260,10 +260,10 @@ export default function Blogs() {
                     </figure>
                   </div>
                   <div>
-                    <p className="font-secondary font-normal text-sm sm:text-base text-[#2563EB] capitalize mb-1">
-                      <span className="text-[#2563EB]/80">Category:</span> Cloud &amp; Scalability
+                    <p className="font-secondary font-medium text-sm sm:text-base text-[#60A5FA] capitalize mb-1">
+                      <span className="text-[#60A5FA]/80">Category:</span> Cloud &amp; Scalability
                     </p>
-                    <h2 className="text-base sm:text-xl font-bold text-[#2563EB] font-primary mb-3">
+                    <h2 className="text-base sm:text-xl font-bold text-white font-primary mb-3">
                       AI vs. Industry Giants: How Startups Are Flipping the Script
                     </h2>
                     <div
@@ -315,7 +315,7 @@ export default function Blogs() {
                     className="inline-flex plus-icon2 z-10"
                     width="22"
                     height="22"
-                    fill="#2563EB"
+                    fill="#60A5FA"
                     viewBox="0 0 16 16"
                   >
                     <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
@@ -354,14 +354,14 @@ export default function Blogs() {
             <div className="group col-span-12 sm:col-span-6 lg:col-span-4">
               <Link
                 href="/blogs/blog-details/leveling-the-playing-field-how-smes-outspace-giants-with-digital-tools"
-                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[6px] hover:bg-[#1E293B] hover:border-[#2563EB]/40"
+                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[14px] hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="inline-flex plus-icon1 z-10"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
@@ -380,10 +380,10 @@ export default function Blogs() {
                     </figure>
                   </div>
                   <div>
-                    <p className="font-secondary font-normal text-sm sm:text-base text-[#2563EB] capitalize mb-1">
-                      <span className="text-[#2563EB]/80">Category:</span> Digital Transformation &amp; Strategy
+                    <p className="font-secondary font-medium text-sm sm:text-base text-[#60A5FA] capitalize mb-1">
+                      <span className="text-[#60A5FA]/80">Category:</span> Digital Transformation &amp; Strategy
                     </p>
-                    <h2 className="text-base sm:text-xl font-bold text-[#2563EB] font-primary mb-3">
+                    <h2 className="text-base sm:text-xl font-bold text-white font-primary mb-3">
                       Leveling the Playing Field: How SMEs Outspace Giants with Digital Tools
                     </h2>
                     <div
@@ -413,14 +413,14 @@ export default function Blogs() {
             <div className="group col-span-12 sm:col-span-6 lg:col-span-4">
               <Link
                 href="/blogs/blog-details/turning-technology-into-roi-the-real-payoff-of-business-transformation"
-                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[6px] hover:bg-[#1E293B] hover:border-[#2563EB]/40"
+                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[14px] hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="inline-flex plus-icon1 z-10"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
@@ -439,10 +439,10 @@ export default function Blogs() {
                     </figure>
                   </div>
                   <div>
-                    <p className="font-secondary font-normal text-sm sm:text-base text-[#2563EB] capitalize mb-1">
-                      <span className="text-[#2563EB]/80">Category:</span> Digital Transformation &amp; Strategy
+                    <p className="font-secondary font-medium text-sm sm:text-base text-[#60A5FA] capitalize mb-1">
+                      <span className="text-[#60A5FA]/80">Category:</span> Digital Transformation &amp; Strategy
                     </p>
-                    <h2 className="text-base sm:text-xl font-bold text-[#2563EB] font-primary mb-3">
+                    <h2 className="text-base sm:text-xl font-bold text-white font-primary mb-3">
                       Turning Technology Into ROI: The Real Payoff of Business Transformation
                     </h2>
                     <div
@@ -472,14 +472,14 @@ export default function Blogs() {
             <div className="group col-span-12 sm:col-span-6 lg:col-span-4">
               <Link
                 href="/blogs/blog-details/ai-voice-agents-in-government-accessibility-voices-that-bridge-gaps"
-                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 bg-[#0F172A] border border-[#2563EB]/20 shadow-[inset_0_0_50px_rgba(37,99,235,0.05)] backdrop-blur-[30px] transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[6px] hover:bg-[#1E293B] hover:border-[#2563EB]/40"
+                className="relative blog-listing group flex overflow-hidden no-underline p-3 md:p-6 glass-card-dark-transparent border border-[#60A5FA]/20 transition duration-300 h-[280px] sm:h-[350px] lg:h-[450px] rounded-[14px] hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="inline-flex plus-icon1 z-10"
                   width="22"
                   height="22"
-                  fill="#2563EB"
+                  fill="#60A5FA"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
@@ -498,10 +498,10 @@ export default function Blogs() {
                     </figure>
                   </div>
                   <div>
-                    <p className="font-secondary font-normal text-sm sm:text-base text-[#2563EB] capitalize mb-1">
-                      <span className="text-[#2563EB]/80">Category:</span> AI &amp; Automation
+                    <p className="font-secondary font-medium text-sm sm:text-base text-[#60A5FA] capitalize mb-1">
+                      <span className="text-[#60A5FA]/80">Category:</span> AI &amp; Automation
                     </p>
-                    <h2 className="text-base sm:text-xl font-bold text-[#2563EB] font-primary mb-3">
+                    <h2 className="text-base sm:text-xl font-bold text-white font-primary mb-3">
                       AI Voice Agents in Government &amp; Accessibility: Voices That Bridge Gaps
                     </h2>
                     <div

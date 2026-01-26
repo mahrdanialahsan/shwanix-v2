@@ -27,7 +27,7 @@ export default function Career() {
               </p>
             </div>
 
-            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-[#2563EB] mb-2">
+            <h1 className="!leading-[1.2] text-[26px] sm:text-[30px] md:text-[34px] lg:text-[40px] xl:text-[46px] font-primary font-bold text-white mb-4 sm:mb-6">
               Are You a Thinker, a Tinker, or a Builder?
             </h1>
 
@@ -115,7 +115,7 @@ export default function Career() {
                     What Guides Us
                   </p>
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#2563EB] font-primary flex">
+                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white font-primary">
                   The Values We Stand On
                 </h2>
               </div>
@@ -151,7 +151,7 @@ export default function Career() {
                     style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg)' }}
                   />
                 </figure>
-                <h3 className="text-lg sm:text-xl md:text-[22px] text-[#2563EB] font-semibold font-primary">
+                <h3 className="text-lg sm:text-xl md:text-[22px] text-white font-semibold font-primary">
                   Build with Pride
                 </h3>
               </div>
@@ -183,7 +183,7 @@ export default function Career() {
                     style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg)' }}
                   />
                 </figure>
-                <h3 className="text-lg sm:text-xl md:text-[22px] text-[#2563EB] font-semibold font-primary">
+                <h3 className="text-lg sm:text-xl md:text-[22px] text-white font-semibold font-primary">
                   Commit with Heart
                 </h3>
               </div>
@@ -215,7 +215,7 @@ export default function Career() {
                     style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg)' }}
                   />
                 </figure>
-                <h3 className="text-lg sm:text-xl md:text-[22px] text-[#2563EB] font-semibold font-primary">
+                <h3 className="text-lg sm:text-xl md:text-[22px] text-white font-semibold font-primary">
                   Treat All Equal
                 </h3>
               </div>
@@ -247,7 +247,7 @@ export default function Career() {
                     style={{ filter: 'brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(0deg)' }}
                   />
                 </figure>
-                <h3 className="text-lg sm:text-xl md:text-[22px] text-[#2563EB] font-semibold font-primary">
+                <h3 className="text-lg sm:text-xl md:text-[22px] text-white font-semibold font-primary">
                   Grow Every Day
                 </h3>
               </div>
@@ -282,7 +282,7 @@ export default function Career() {
                     </p>
                   </div>
                   <br />
-                  <h2 className="leading-none capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#2563EB] font-primary">
+                  <h2 className="leading-none capitalize text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white font-primary">
                     Step Into What&apos;s Next
                   </h2>
                   <p className="font-secondary font-normal text-sm sm:text-base text-[#8A8A8A]">
@@ -308,7 +308,7 @@ export default function Career() {
                   <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
                 </svg>
 
-                <h3 className="font-primary text-lg md:text-xl font-semibold text-[#2563EB] uppercase">
+                <h3 className="font-primary text-lg md:text-xl font-semibold text-white uppercase">
                   Full Stack Developer
                 </h3>
 

@@ -82,7 +82,7 @@ const Navbar = () => {
             {/* Logo */}
             <Link href="/" className="shrink-0 navbar-logo">
               <Image 
-                src="/Images/shwanix.png" 
+                src="/Images/shwanix-v6.png" 
                 alt="Logo" 
                 width={150} 
                 height={50}
@@ -279,7 +279,7 @@ const Navbar = () => {
                 <div className="mil-menu-div flex flex-col">
                   <div className="mil-menu-logo mb-8 lg:mb-12">
                     <Image 
-                      src="/Images/shwanix.png" 
+                      src="/Images/shwanix-v6.png" 
                       alt="Logo" 
                       width={200} 
                       height={60}
